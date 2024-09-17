@@ -26,19 +26,19 @@ export async function PUT(request, { params }) {
   }
 
 export async function DELETE({ params }) {
-  const id = parseInt(params.id);
+    const id = parseInt(params.id);
 
-  try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    let characters = JSON.parse(fileContents);
+    try {
+        const fileContents = await fs.readFile(filePath, 'utf8');
+        let characters = JSON.parse(fileContents);
 
-    characters = characters.filter(character => character.id !== id);
+        characters = characters.filter(character => character.id !== id);
 
-    await fs.writeFile(filePath, JSON.stringify(characters, null, 2), 'utf8');
+        await fs.writeFile(filePath, JSON.stringify(characters, null, 2), 'utf8');
 
-    return new Response('Character deleted', { status: 200 });
-  } catch (error) {
-    console.error('Error reading or writing JSON file:', error);
-    return new Response('Error deleting data', { status: 500 });
-  }
+        return new Response('Character deleted', { status: 200 });
+    } catch (error) {
+        console.error('Error reading or writing JSON file:', error);
+        return new Response('Error deleting data', { status: 500 });
+    }
 }
