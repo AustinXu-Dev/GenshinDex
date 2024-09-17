@@ -1,772 +1,772 @@
 [
-    {
-        "id":1,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-albedo.png",
-        "name":"Albedo",
-        "element":"Geo",
-        "weapon":"Sword",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"A mysterious alchemist from monstadt with an affinity for knowledge."
-    },
-    {
-        "id":2,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-alhatham.png",
-        "name":"Alhaitham",
-        "element":"Dendro",
-        "weapon":"Sword",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"A member of the Haravatat of the Sumeru and the Akademiya's Scribe."
-    },
-    {
-        "id":3,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-aloy.png",
-        "name":"Aloy",
-        "element":"Cryo",
-        "weapon":"Bow",
-        "region":"Unknown",
-        "rarity":4,
-        "description":"A skilled hunter from another world."
-    },
-    {
-        "id":4,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ambor.png",
-        "name":"Amber",
-        "element":"Pyro",
-        "weapon":"Bow",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"The ever-enthusoastic Outrider of the knight of favonius."
-    },
-    {
-        "id":5,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-itto.png",
-        "name":"Arataki Itto",
-        "element":"Geo",
-        "weapon":"Claymore",
-        "region":"Inzuma",
-        "rarity":5,
-        "description":"The bold and brash leader of the Arataki Gang."
-    },
-    {
-        "id":6,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avatarIcon-arlecchino.png",
-        "name":"Arlecchino",
-        "element":"Pyro",
-        "weapon":"Polearm",
-        "region":"Snezhnaya",
-        "rarity":5,
-        "description":"Also know as \"The Knave\", is a Harbinger with a mysterious and cold personality."
-    },
-    {
-        "id":7,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-baizhuer.png",
-        "name":"Baizhu",
-        "element":"Dendro",
-        "weapon":"Catalyst",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"The owner of Bubu Pharmacy and Qiqi's guardian."
-    },
-    {
-        "id":8,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-barbara-skin.png",
-        "name":"Barbara",
-        "element":"Hydro",
-        "weapon":"Catalyst",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"Monstadt's idol and Deaconess of the Church."
-    },
-    {
-        "id":9,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-beidou.png",
-        "name":"Beidou",
-        "element":"Electro",
-        "weapon":"Claymore",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"The leader of the Crux, known for her strength and bravery."
-    },
-    {
-        "id":10,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-bennett.png",
-        "name":"Bennett",
-        "element":"Pyro",
-        "weapon":"Sword",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A good-hearted but unlucky adventurer from Monstadt's."
-    },
-    {
-        "id":11,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-candace.png",
-        "name":"Candace",
-        "element":"Hydro",
-        "weapon":"Polearm",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A protector of her village and guardian of ancient knowledge."
-    },
-    {
-        "id":12,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-charlotte.png",
-        "name":"Charlotte",
-        "element":"Cryo",
-        "weapon":"Catalyst",
-        "region":"Fontaine",
-        "rarity":4,
-        "description":"A journalist from the SteamBird who is always on the prowl for an exclusive scoop."
-    },
-    {
-        "id":13,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-chongyun.png",
-        "name":"Chongyun",
-        "element":"Cryo",
-        "weapon":"Claymore",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A young exorcist with an abundance of positive energy."
-    },
-    {
-        "id":14,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-collei.png",
-        "name":"Collei",
-        "element":"Dendro",
-        "weapon":"Bow",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A trainee ranger and avid student of Tighnari."
-    },
-    {
-        "id":15,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-cyno.png",
-        "name":"Cyno",
-        "element":"Electro",
-        "weapon":"Polearm",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"The General Mahamatra, enforcing laws across Sumeru."
-    },
-    {
-        "id":16,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-dehya.png",
-        "name":"Dehya",
-        "element":"Pyro",
-        "weapon":"Claymore",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"A renowned mercenary known for her loyalty and strength."
-    },
-    {
-        "id":17,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-diluc.png",
-        "name":"Diluc",
-        "element":"Pyro",
-        "weapon":"Claymore",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"A nobleman who acts as Monstadt's vigilante at night."
-    },
-    {
-        "id":18,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-diona.png",
-        "name":"Diona",
-        "element":"Cryo",
-        "weapon":"Bow",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A bartender who despises alcohol."
-    },
-    {
-        "id":19,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-dori.png",
-        "name":"Dori",
-        "element":"Electro",
-        "weapon":"Claymore",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A weathy merchant known for her shrewdness and resourcefulness."
-    },
-    {
-        "id":20,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-eula.png",
-        "name":"Eula",
-        "element":"Cryo",
-        "weapon":"Claymore",
-        "region":"Monstadt",
-        "rarity":5,
-        "description":"A descendant of an aristocratic family and the Spindrift Knight."
-    },
-    {
-        "id":21,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-faruzan.png",
-        "name":"Faruzan",
-        "element":"Anemo",
-        "weapon":"Bow",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A brilliant scholar of Sumeru who specializes in mechanics."
-    },
-    {
-        "id":22,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-fischl.png",
-        "name":"Fischl",
-        "element":"Electro",
-        "weapon":"Bow",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A mysterious adventurer who calls herself \"Prinzessin der Verurteilung.\""
-    },
-    {
-        "id":23,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-freminet.png",
-        "name":"Freminet",
-        "element":"Cryo",
-        "weapon":"Claymore",
-        "region":"Fontaine",
-        "rarity":4,
-        "description":"An underwater explorer from Fontaine with a quiet nature."
-    },
-    {
-        "id":24,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-furina.png",
-        "name":"Furina",
-        "element":"Hydro",
-        "weapon":"Sword",
-        "region":"Fontaine",
-        "rarity":5,
-        "description":"The Hydro Archon and protector of justice in Fontaine."
-    },
-    {
-        "id":25,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_Gaming.png",
-        "name":"Gaming",
-        "element":"Pyro",
-        "weapon":"Claymore",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A professional Wushou dancer."
-    },
-    {
-        "id":26,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_GanyuCostumeYu.png",
-        "name":"Ganyu",
-        "element":"Cryo",
-        "weapon":"Bow",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"The half-qilin secretary of the Liyue Qixing."
-    },
-    {
-        "id":27,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-gorou.png",
-        "name":"Gorou",
-        "element":"Geo",
-        "weapon":"Bow",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"The loyal general of the Watatsumi Army."
-    },
-    {
-        "id":28,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-hutao.png",
-        "name":"Hu Tao",
-        "element":"Pyro",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"The 77th Director of the Wnagsheng Funeral Parlor."
-    },
-    {
-        "id":29,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-jean-skin.png",
-        "name":"Jean",
-        "element":"Anemo",
-        "weapon":"Sword",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"Acting Grand Master of the Knights of Favonius."
-    },
-    {
-        "id":30,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kazuha.png",
-        "name":"Kaedehara Kazuha",
-        "element":"Anemo",
-        "weapon":"Sword",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"A wnadering samurai with a poetic soul."
-    },
-    {
-        "id":31,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kaeya.png",
-        "name":"Kaeya",
-        "element":"Cryo",
-        "weapon":"Sword",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A Cavalry Captain known for his mysterious demeanor."
-    },
-    {
-        "id":32,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ayaka.png",
-        "name":"Kamisato Ayaka",
-        "element":"Cryo",
-        "weapon":"Sword",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"The elegant and graceful daughter of the Kamisato Clan,"
-    },
-    {
-        "id":33,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ayato.png",
-        "name":"Kamisato Ayato",
-        "element":"Hyro",
-        "weapon":"Sword",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"The charismatic leader of the Kamisato Clan."
-    },
-    {
-        "id":34,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kaveh.png",
-        "name":"Kaveh",
-        "element":"Dendro",
-        "weapon":"Claymore",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A talented architect with a strong sense of justice."
-    },
-    {
-        "id":35,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-keqing.png",
-        "name":"Keqing",
-        "element":"Electro",
-        "weapon":"Sword",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"The Yuheng of the Liyue Qixing, known for her strong will."
-    },
-    {
-        "id":36,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-momoka.png",
-        "name":"Kiara",
-        "element":"Dendro",
-        "weapon":"Sword",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"A courier who if passionate about delivering packages."
-    },
-    {
-        "id":37,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-klee.png",
-        "name":"Klee",
-        "element":"Pyro",
-        "weapon":"Catalyst",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"An energetic girl who loves explosions."
-    },
-    {
-        "id":38,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sara.png",
-        "name":"Kujou Sara",
-        "element":"Electro",
-        "weapon":"Bow",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"A loyal general under the Raiden Shogun."
-    },
-    {
-        "id":39,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-shinobu.png",
-        "name":"Kuki Shinobu",
-        "element":"Electro",
-        "weapon":"Sword",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"The capable second-in-command of the Arataki Gang."
-    },
-    {
-        "id":40,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-layla.png",
-        "name":"Layla",
-        "element":"Cryo",
-        "weapon":"Sword",
-        "region":"Sumeru",
-        "rarity":4,
-        "description":"A dedicated scholar with a habit of sleepwalking."
-    },
-    {
-        "id":41,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-lisa.png",
-        "name":"Lisa",
-        "element":"Electro",
-        "weapon":"Catalyst",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"The librarian of the Knights of Favonius. With the vest knowledge of magic."
-    },
-    {
-        "id":42,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-linette.png",
-        "name":"Lynette",
-        "element":"Anemo",
-        "weapon":"Sword",
-        "region":"Fontaine",
-        "rarity":4,
-        "description":"A magician's assistant known for her cool composure."
-    },
-    {
-        "id":43,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-liney.png",
-        "name":"Lyney",
-        "element":"Pyro",
-        "weapon":"Bow",
-        "region":"Fontaine",
-        "rarity":5,
-        "description":"A famous magician from Fontaine with a flair for performance."
-    },
-    {
-        "id":44,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-mika.png",
-        "name":"Mika",
-        "element":"Cryo",
-        "weapon":"Polearm",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"The front-line surveyor of the Knights of Favonius Reconnaissance Company led by Eula."
-    },
-    {
-        "id":45,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-mona.png",
-        "name":"Mona",
-        "element":"Hydro",
-        "weapon":"Catalyst",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"An astrologist who is skilled in hydromancy."
-    },
-    {
-        "id":46,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-nahida.png",
-        "name":"Nahida",
-        "element":"Dendro",
-        "weapon":"Catalyst",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"The Dendro Archon and protector of wisdom in Sumeru."
-    },
-    {
-        "id":47,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-neuvillette.png",
-        "name":"Neuvillette",
-        "element":"Hydro",
-        "weapon":"Catalyst",
-        "region":"Fontaine",
-        "rarity":5,
-        "description":"The Cheift Justice of Fontaine with a deep connection to the law."
-    },
-    {
-        "id":48,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-nilou.png",
-        "name":"Nilou",
-        "element":"Hyro",
-        "weapon":"Sword",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"A dancer of unparalleled grace and beauty."
-    },
-    {
-        "id":49,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ningguang.png",
-        "name":"Ningguang",
-        "element":"Geo",
-        "weapon":"Catalyst",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"The Tianquan of the Liyue Qixing and a shrewed businesswoman."
-    },
-    {
-        "id":50,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-noel.png",
-        "name":"Noelle",
-        "element":"Geo",
-        "weapon":"Claymore",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A maid with a dream of becoming a knight."
-    },
-    {
-        "id":51,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-qiqi.png",
-        "name":"Qiqi",
-        "element":"Cryo",
-        "weapon":"Sword",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"A zombie and a apprentice herbalist at Bubu Pharmacy."
-    },
-    {
-        "id":52,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-shougun.png",
-        "name":"Raiden Shogun",
-        "element":"Electro",
-        "weapon":"Polearm",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"The Electro Archon and ruler of Inazuma."
-    },
-    {
-        "id":53,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-razor.png",
-        "name":"Razor",
-        "element":"Electro",
-        "weapon":"Claymore",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A boy raised by wolves who wields Electro with primal power."
-    },
-    {
-        "id":54,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-rosaria.png",
-        "name":"Rosaria",
-        "element":"Cryo",
-        "weapon":"Polearm",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"A nun with a stern and unorthodox approach to her duties."
-    },
-    {
-        "id":55,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kokomi.png",
-        "name":"Sangonomiya Kokomi",
-        "element":"Hydro",
-        "weapon":"Catalyst",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"The Divine Priestess of Watatsumi Island and leader of the resistance."
-    },
-    {
-        "id":56,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sayu.png",
-        "name":"Sayu",
-        "element":"Anemo",
-        "weapon":"Claymore",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"A ninja with a penchant for napping."
-    },
-    {
-        "id":57,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_ShenheCostumeDai.png",
-        "name":"Shenhe",
-        "element":"Cryo",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"An adepti disciple who exudes coldness and power."
-    },
-    {
-        "id":58,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-heizo.png",
-        "name":"Shikanoin Heizou",
-        "element":"Anemo",
-        "weapon":"Catalyst",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"The number one Tenryou Commision detective."
-    },
-    {
-        "id":59,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sucrose.png",
-        "name":"Sucrose",
-        "element":"Anemo",
-        "weapon":"Catalyst",
-        "region":"Mondstadt",
-        "rarity":4,
-        "description":"An alchemist fascinated by bio-alchemy."
-    },
-    {
-        "id":60,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tartaglia.png",
-        "name":"Tartaglia",
-        "element":"Hydro",
-        "weapon":"Bow",
-        "region":"Snezhnaya",
-        "rarity":5,
-        "description":"Also known as Childe, a Harbinger of the Fatui."
-    },
-    {
-        "id":61,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tohma.png",
-        "name":"Thoma",
-        "element":"Pyro",
-        "weapon":"Polearm",
-        "region":"Inazuma",
-        "rarity":4,
-        "description":"A loyal and dependable housekeeper for the Kamisato Clan."
-    },
-    {
-        "id":62,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tighnari.png",
-        "name":"Tighnari",
-        "element":"Dendro",
-        "weapon":"Bow",
-        "region":"Sumeru",
-        "rarity":5,
-        "description":"A forest ranger known for his sharp intellect."
-    },
-    {
-        "id":63,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-venti.png",
-        "name":"Venti",
-        "element":"Anemo",
-        "weapon":"Bow",
-        "region":"Mondstadt",
-        "rarity":5,
-        "description":"The Anemo Archon, who roams Mondstadt as a carefree bard."
-    },
-    {
-        "id":64,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-wanderer.png",
-        "name":"Wanderer",
-        "element":"Anemo",
-        "weapon":"Catalyst",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"A mysterious individual with atroubled past."
-    },
-    {
-        "id":65,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-wriothesley.png",
-        "name":"Wriothesley",
-        "element":"Cryo",
-        "weapon":"Catalyst",
-        "region":"Fontaine",
-        "rarity":5,
-        "description":"The Warden of the Fortress of Meropide in Fontaine."
-    },
-    {
-        "id":66,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xiangling.png",
-        "name":"Xiangliang",
-        "element":"Pyro",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A renowned chef with a passion for spicy food."
-    },
-    {
-        "id":67,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_Liuyun.png",
-        "name":"Xianyun",
-        "element":"Anemo",
-        "weapon":"Catalyst",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"Also known as Cloud Retainer."
-    },
-    {
-        "id":68,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xiao.png",
-        "name":"Xiao",
-        "element":"Anemo",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"A Yaksha adeptus who protects Liyue from evil spirits."
-    },
-    {
-        "id":69,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_XingqiuCostumeBamboo.png",
-        "name":"Xingqui",
-        "element":"Hydro",
-        "weapon":"Sword",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A young scholar and practitioner of the Guhua Clan sword techniques."
-    },
-    {
-        "id":70,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xinyan.png",
-        "name":"Xinyan",
-        "element":"Pyro",
-        "weapon":"Claymore",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A rock 'n' roll musician with a passion for music and freedom."
-    },
-    {
-        "id":71,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yae.png",
-        "name":"Yae Miko",
-        "element":"Electro",
-        "weapon":"Catalyst",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"A kitsune of many facets. owns the Yae Publishing House and is Eternity's servant and friend."
-    },
-    {
-        "id":72,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-feiyan.png",
-        "name":"Yanfei",
-        "element":"Pyro",
-        "weapon":"Catalyst",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A premier legal adviser who values fairness."
-    },
-    {
-        "id":73,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yaoyao.png",
-        "name":"Yaoyao",
-        "element":"Dendro",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A gentle and caring young girl who helps others."
-    },
-    {
-        "id":74,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yelan.png",
-        "name":"Yelan",
-        "element":"Hydro",
-        "weapon":"Bow",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"A mysterious woman who works for the Ministry of Civil Affairs."
-    },
-    {
-        "id":75,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yoimiya.png",
-        "name":"Yoimiya",
-        "element":"Pyro",
-        "weapon":"Bow",
-        "region":"Inazuma",
-        "rarity":5,
-        "description":"A fireworks expert known for her exuberant personality."
-    },
-    {
-        "id":76,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yunjin.png",
-        "name":"Yun Jin",
-        "element":"Geo",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":4,
-        "description":"A famous opera singer and director of the Yun-Han Opera Troupe."
-    },
-    {
-        "id":77,
-        "image":"https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-zhongli.png",
-        "name":"Zhongli",
-        "element":"Geo",
-        "weapon":"Polearm",
-        "region":"Liyue",
-        "rarity":5,
-        "description":"The Geo Archon who once ruled Liyue as Rex Lapis."
-    }
+  {
+    "id": 1,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-albedo.png",
+    "name": "Albedo",
+    "element": "Geo",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "A mysterious alchemist from monstadt with an affinity for knowledge."
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-alhatham.png",
+    "name": "Alhaitham",
+    "element": "Dendro",
+    "weapon": "Sword",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "A member of the Haravatat of the Sumeru and the Akademiya's Scribe."
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-aloy.png",
+    "name": "Aloy",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "region": "Unknown",
+    "rarity": 4,
+    "description": "A skilled hunter from another world."
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ambor.png",
+    "name": "Amber",
+    "element": "Pyro",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "The ever-enthusoastic Outrider of the knight of favonius."
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-itto.png",
+    "name": "Arataki Itto",
+    "element": "Geo",
+    "weapon": "Claymore",
+    "region": "Inzuma",
+    "rarity": 5,
+    "description": "The bold and brash leader of the Arataki Gang."
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avatarIcon-arlecchino.png",
+    "name": "Arlecchino",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Snezhnaya",
+    "rarity": 5,
+    "description": "Also know as \"The Knave\", is a Harbinger with a mysterious and cold personality."
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-baizhuer.png",
+    "name": "Baizhu",
+    "element": "Dendro",
+    "weapon": "Catalyst",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "The owner of Bubu Pharmacy and Qiqi's guardian."
+  },
+  {
+    "id": 8,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-barbara-skin.png",
+    "name": "Barbara",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "Monstadt's idol and Deaconess of the Church."
+  },
+  {
+    "id": 9,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-beidou.png",
+    "name": "Beidou",
+    "element": "Electro",
+    "weapon": "Claymore",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "The leader of the Crux, known for her strength and bravery."
+  },
+  {
+    "id": 10,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-bennett.png",
+    "name": "Bennett",
+    "element": "Pyro",
+    "weapon": "Sword",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A good-hearted but unlucky adventurer from Monstadt's."
+  },
+  {
+    "id": 11,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-candace.png",
+    "name": "Candace",
+    "element": "Hydro",
+    "weapon": "Polearm",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A protector of her village and guardian of ancient knowledge."
+  },
+  {
+    "id": 12,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-charlotte.png",
+    "name": "Charlotte",
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "region": "Fontaine",
+    "rarity": 4,
+    "description": "A journalist from the SteamBird who is always on the prowl for an exclusive scoop."
+  },
+  {
+    "id": 13,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-chongyun.png",
+    "name": "Chongyun",
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A young exorcist with an abundance of positive energy."
+  },
+  {
+    "id": 14,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-collei.png",
+    "name": "Collei",
+    "element": "Dendro",
+    "weapon": "Bow",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A trainee ranger and avid student of Tighnari."
+  },
+  {
+    "id": 15,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-cyno.png",
+    "name": "Cyno",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "The General Mahamatra, enforcing laws across Sumeru."
+  },
+  {
+    "id": 16,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-dehya.png",
+    "name": "Dehya",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "A renowned mercenary known for her loyalty and strength."
+  },
+  {
+    "id": 17,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-diluc.png",
+    "name": "Diluc",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "description": "A nobleman who acts as Monstadt's vigilante at night."
+  },
+  {
+    "id": 18,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-diona.png",
+    "name": "Diona",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A bartender who despises alcohol."
+  },
+  {
+    "id": 19,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-dori.png",
+    "name": "Dori",
+    "element": "Electro",
+    "weapon": "Claymore",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A weathy merchant known for her shrewdness and resourcefulness."
+  },
+  {
+    "id": 20,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-eula.png",
+    "name": "Eula",
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "region": "Monstadt",
+    "rarity": 5,
+    "description": "A descendant of an aristocratic family and the Spindrift Knight."
+  },
+  {
+    "id": 21,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-faruzan.png",
+    "name": "Faruzan",
+    "element": "Anemo",
+    "weapon": "Bow",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A brilliant scholar of Sumeru who specializes in mechanics."
+  },
+  {
+    "id": 22,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-fischl.png",
+    "name": "Fischl",
+    "element": "Electro",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A mysterious adventurer who calls herself \"Prinzessin der Verurteilung.\""
+  },
+  {
+    "id": 23,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-freminet.png",
+    "name": "Freminet",
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "region": "Fontaine",
+    "rarity": 4,
+    "description": "An underwater explorer from Fontaine with a quiet nature."
+  },
+  {
+    "id": 24,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-furina.png",
+    "name": "Furina",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "region": "Fontaine",
+    "rarity": 5,
+    "description": "The Hydro Archon and protector of justice in Fontaine."
+  },
+  {
+    "id": 25,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_Gaming.png",
+    "name": "Gaming",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A professional Wushou dancer."
+  },
+  {
+    "id": 26,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_GanyuCostumeYu.png",
+    "name": "Ganyu",
+    "element": "Cryo",
+    "weapon": "Bow",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "The half-qilin secretary of the Liyue Qixing."
+  },
+  {
+    "id": 27,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-gorou.png",
+    "name": "Gorou",
+    "element": "Geo",
+    "weapon": "Bow",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "The loyal general of the Watatsumi Army."
+  },
+  {
+    "id": 28,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-hutao.png",
+    "name": "Hu Tao",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "The 77th Director of the Wnagsheng Funeral Parlor."
+  },
+  {
+    "id": 29,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-jean-skin.png",
+    "name": "Jean",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "description": "Acting Grand Master of the Knights of Favonius."
+  },
+  {
+    "id": 30,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kazuha.png",
+    "name": "Kaedehara Kazuha",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "A wnadering samurai with a poetic soul."
+  },
+  {
+    "id": 31,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kaeya.png",
+    "name": "Kaeya",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A Cavalry Captain known for his mysterious demeanor."
+  },
+  {
+    "id": 32,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ayaka.png",
+    "name": "Kamisato Ayaka",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "The elegant and graceful daughter of the Kamisato Clan,"
+  },
+  {
+    "id": 33,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ayato.png",
+    "name": "Kamisato Ayato",
+    "element": "Hyro",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "The charismatic leader of the Kamisato Clan."
+  },
+  {
+    "id": 34,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kaveh.png",
+    "name": "Kaveh",
+    "element": "Dendro",
+    "weapon": "Claymore",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A talented architect with a strong sense of justice."
+  },
+  {
+    "id": 35,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-keqing.png",
+    "name": "Keqing",
+    "element": "Electro",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "The Yuheng of the Liyue Qixing, known for her strong will."
+  },
+  {
+    "id": 36,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-momoka.png",
+    "name": "Kiara",
+    "element": "Dendro",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "A courier who if passionate about delivering packages."
+  },
+  {
+    "id": 37,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-klee.png",
+    "name": "Klee",
+    "element": "Pyro",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "description": "An energetic girl who loves explosions."
+  },
+  {
+    "id": 38,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sara.png",
+    "name": "Kujou Sara",
+    "element": "Electro",
+    "weapon": "Bow",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "A loyal general under the Raiden Shogun."
+  },
+  {
+    "id": 39,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-shinobu.png",
+    "name": "Kuki Shinobu",
+    "element": "Electro",
+    "weapon": "Sword",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "The capable second-in-command of the Arataki Gang."
+  },
+  {
+    "id": 40,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-layla.png",
+    "name": "Layla",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "region": "Sumeru",
+    "rarity": 4,
+    "description": "A dedicated scholar with a habit of sleepwalking."
+  },
+  {
+    "id": 41,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-lisa.png",
+    "name": "Lisa",
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "The librarian of the Knights of Favonius. With the vest knowledge of magic."
+  },
+  {
+    "id": 42,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-linette.png",
+    "name": "Lynette",
+    "element": "Anemo",
+    "weapon": "Sword",
+    "region": "Fontaine",
+    "rarity": 4,
+    "description": "A magician's assistant known for her cool composure."
+  },
+  {
+    "id": 43,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-liney.png",
+    "name": "Lyney",
+    "element": "Pyro",
+    "weapon": "Bow",
+    "region": "Fontaine",
+    "rarity": 5,
+    "description": "A famous magician from Fontaine with a flair for performance."
+  },
+  {
+    "id": 44,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-mika.png",
+    "name": "Mika",
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "The front-line surveyor of the Knights of Favonius Reconnaissance Company led by Eula."
+  },
+  {
+    "id": 45,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-mona.png",
+    "name": "Mona",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "description": "An astrologist who is skilled in hydromancy."
+  },
+  {
+    "id": 46,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-nahida.png",
+    "name": "Nahida",
+    "element": "Dendro",
+    "weapon": "Catalyst",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "The Dendro Archon and protector of wisdom in Sumeru."
+  },
+  {
+    "id": 47,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-neuvillette.png",
+    "name": "Neuvillette",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "region": "Fontaine",
+    "rarity": 5,
+    "description": "The Cheift Justice of Fontaine with a deep connection to the law."
+  },
+  {
+    "id": 48,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-nilou.png",
+    "name": "Nilou",
+    "element": "Hyro",
+    "weapon": "Sword",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "A dancer of unparalleled grace and beauty."
+  },
+  {
+    "id": 49,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-ningguang.png",
+    "name": "Ningguang",
+    "element": "Geo",
+    "weapon": "Catalyst",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "The Tianquan of the Liyue Qixing and a shrewed businesswoman."
+  },
+  {
+    "id": 50,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-noel.png",
+    "name": "Noelle",
+    "element": "Geo",
+    "weapon": "Claymore",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A maid with a dream of becoming a knight."
+  },
+  {
+    "id": 51,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-qiqi.png",
+    "name": "Qiqi",
+    "element": "Cryo",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "A zombie and a apprentice herbalist at Bubu Pharmacy."
+  },
+  {
+    "id": 52,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-shougun.png",
+    "name": "Raiden Shogun",
+    "element": "Electro",
+    "weapon": "Polearm",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "The Electro Archon and ruler of Inazuma."
+  },
+  {
+    "id": 53,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-razor.png",
+    "name": "Razor",
+    "element": "Electro",
+    "weapon": "Claymore",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A boy raised by wolves who wields Electro with primal power."
+  },
+  {
+    "id": 54,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-rosaria.png",
+    "name": "Rosaria",
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "A nun with a stern and unorthodox approach to her duties."
+  },
+  {
+    "id": 55,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-kokomi.png",
+    "name": "Sangonomiya Kokomi",
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "The Divine Priestess of Watatsumi Island and leader of the resistance."
+  },
+  {
+    "id": 56,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sayu.png",
+    "name": "Sayu",
+    "element": "Anemo",
+    "weapon": "Claymore",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "A ninja with a penchant for napping."
+  },
+  {
+    "id": 57,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_ShenheCostumeDai.png",
+    "name": "Shenhe",
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "An adepti disciple who exudes coldness and power."
+  },
+  {
+    "id": 58,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-heizo.png",
+    "name": "Shikanoin Heizou",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "The number one Tenryou Commision detective."
+  },
+  {
+    "id": 59,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-sucrose.png",
+    "name": "Sucrose",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "region": "Mondstadt",
+    "rarity": 4,
+    "description": "An alchemist fascinated by bio-alchemy."
+  },
+  {
+    "id": 60,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tartaglia.png",
+    "name": "Tartaglia",
+    "element": "Hydro",
+    "weapon": "Bow",
+    "region": "Snezhnaya",
+    "rarity": 5,
+    "description": "Also known as Childe, a Harbinger of the Fatui."
+  },
+  {
+    "id": 61,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tohma.png",
+    "name": "Thoma",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Inazuma",
+    "rarity": 4,
+    "description": "A loyal and dependable housekeeper for the Kamisato Clan."
+  },
+  {
+    "id": 62,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-tighnari.png",
+    "name": "Tighnari",
+    "element": "Dendro",
+    "weapon": "Bow",
+    "region": "Sumeru",
+    "rarity": 5,
+    "description": "A forest ranger known for his sharp intellect."
+  },
+  {
+    "id": 63,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-venti.png",
+    "name": "Venti",
+    "element": "Anemo",
+    "weapon": "Bow",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "description": "The Anemo Archon, who roams Mondstadt as a carefree bard."
+  },
+  {
+    "id": 64,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-wanderer.png",
+    "name": "Wanderer",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "A mysterious individual with atroubled past."
+  },
+  {
+    "id": 65,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-wriothesley.png",
+    "name": "Wriothesley",
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "region": "Fontaine",
+    "rarity": 5,
+    "description": "The Warden of the Fortress of Meropide in Fontaine."
+  },
+  {
+    "id": 66,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xiangling.png",
+    "name": "Xiangliang",
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A renowned chef with a passion for spicy food."
+  },
+  {
+    "id": 67,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_Liuyun.png",
+    "name": "Xianyun",
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "Also known as Cloud Retainer."
+  },
+  {
+    "id": 68,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xiao.png",
+    "name": "Xiao",
+    "element": "Anemo",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "A Yaksha adeptus who protects Liyue from evil spirits."
+  },
+  {
+    "id": 69,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/UI_AvatarIcon_XingqiuCostumeBamboo.png",
+    "name": "Xingqui",
+    "element": "Hydro",
+    "weapon": "Sword",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A young scholar and practitioner of the Guhua Clan sword techniques."
+  },
+  {
+    "id": 70,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-xinyan.png",
+    "name": "Xinyan",
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A rock 'n' roll musician with a passion for music and freedom."
+  },
+  {
+    "id": 71,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yae.png",
+    "name": "Yae Miko",
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "A kitsune of many facets. owns the Yae Publishing House and is Eternity's servant and friend."
+  },
+  {
+    "id": 72,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-feiyan.png",
+    "name": "Yanfei",
+    "element": "Pyro",
+    "weapon": "Catalyst",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A premier legal adviser who values fairness."
+  },
+  {
+    "id": 73,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yaoyao.png",
+    "name": "Yaoyao",
+    "element": "Dendro",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A gentle and caring young girl who helps others."
+  },
+  {
+    "id": 74,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yelan.png",
+    "name": "Yelan",
+    "element": "Hydro",
+    "weapon": "Bow",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "A mysterious woman who works for the Ministry of Civil Affairs."
+  },
+  {
+    "id": 75,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yoimiya.png",
+    "name": "Yoimiya",
+    "element": "Pyro",
+    "weapon": "Bow",
+    "region": "Inazuma",
+    "rarity": 5,
+    "description": "A fireworks expert known for her exuberant personality."
+  },
+  {
+    "id": 76,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-yunjin.png",
+    "name": "Yun Jin",
+    "element": "Geo",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 4,
+    "description": "A famous opera singer and director of the Yun-Han Opera Troupe."
+  },
+  {
+    "id": 77,
+    "image": "https://cdn.wanderer.moe/genshin-impact/character-icons/ui-avataricon-zhongli.png",
+    "name": "Zhongli",
+    "element": "Geo",
+    "weapon": "Polearm",
+    "region": "Liyue",
+    "rarity": 5,
+    "description": "The Geo Archon who once ruled Liyue as Rex Lapis."
+  }
 ]
