@@ -1,0 +1,488 @@
+[
+    {
+        "id":1,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/7/71/Hilichurl_Icon.png/revision/latest?cb=20200724110949",
+        "name":"Hilichurl",
+        "type":"Hilichurl",
+        "elemental":null,
+        "hp":"~170",
+        "description":"Basic humanoid enemy, part of the Hilichurl tribe."
+    },
+    {
+        "id":2,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/7/71/Hilichurl_Icon.png/revision/latest?cb=20200724110949",
+        "name":"Hilichurl Shooter",
+        "type":"Hilichurl",
+        "elemental":null,
+        "hp":"~188",
+        "description":"A Hilichurl that attacks from a distance using a crossbow."
+    },
+    {
+        "id":3,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/7/71/Hilichurl_Icon.png/revision/latest?cb=20200724110949",
+        "name":"Rock Shield Hilichurl Guard",
+        "type":"Hilichurl",
+        "elemental":"Geo",
+        "hp":"~300",
+        "description":"A Hilichurl wielding a shield made of stone."
+    },
+    {
+        "id":4,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/47/Mitachurl_Icon.png/revision/latest?cb=20200724112619",
+        "name":"Wooden Shield Hilichurl Guard",
+        "type":"Hilichurl",
+        "elemental":null,
+        "hp":"~300",
+        "description":"A Hilichurl wielding a wooden shield."
+    },
+    {
+        "id":5,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/47/Mitachurl_Icon.png/revision/latest?cb=20200724112619",
+        "name":"Blazing Axe Mitachurl",
+        "type":"Hilichurl",
+        "elemental":"Pyro",
+        "hp":"~8,000",
+        "description":"A larger, stronger Hilichurl wielding a fiery axe."
+    },
+    {
+        "id":6,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/47/Mitachurl_Icon.png/revision/latest?cb=20200724112619",
+        "name":"Crackling Axe Mitachurl",
+        "type":"Hilichurl",
+        "elemental":"Electro",
+        "hp":"~8,000",
+        "description":"A Mitachurl with an Electro-infused axe."
+    },
+    {
+        "id":7,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Frostarm_Lawachurl_Icon.png/revision/latest?cb=20230412030516",
+        "name":"Frostarm Lawachurl",
+        "type":"Hilichurl",
+        "elemental":"Cryo",
+        "hp":"~18,000",
+        "description":"A massive, ice-infused Hilichurl."
+    },
+    {
+        "id":8,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Stonehide_Lawachurl_Icon.png/revision/latest?cb=20201218173923",
+        "name":"Stonehide Lawachurl",
+        "type":"Hilichurl",
+        "elemental":"Geo",
+        "hp":"~20,000",
+        "description":"A heavily armored Hilichurl with Geo protection."
+    },
+    {
+        "id":9,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Anemo_Slime_Icon.png/revision/latest?cb=20240505152847",
+        "name":"Anemo Slime",
+        "type":"Slime",
+        "elemental":"Anemo",
+        "hp":"~100",
+        "description":"A small, bouncing slime infused with Anemo energy."
+    },
+    {
+        "id":10,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Geo_Slime_Icon.png/revision/latest?cb=20240505155558",
+        "name":"Geo Slime",
+        "type":"Slime",
+        "elemental":"Geo",
+        "hp":"~100",
+        "description":"A small slime infused with Geo energy."
+    },
+    {
+        "id":11,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Cryo_Slime_Icon.png/revision/latest?cb=20240505155530",
+        "name":"Cryo Slime ",
+        "type":"Slime",
+        "elemental":"Cryo",
+        "hp":"~100",
+        "description":"A small slime infused with Cryo energy."
+    },
+    {
+        "id":12,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Electro_Slime_Icon.png/revision/latest?cb=20240505152701",
+        "name":"Electro Slime",
+        "type":"Slime",
+        "elemental":"Electro",
+        "hp":"~100",
+        "description":"A small slime infused with Electro energy."
+    },
+    {
+        "id":13,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/84/Pyro_Slime_Icon.png/revision/latest?cb=20230412030525",
+        "name":"Pyro Slime",
+        "type":"Slime",
+        "elemental":"Pyro",
+        "hp":"~100",
+        "description":"A small, bouncing slime infused with Pyro energy."
+    },
+    {
+        "id":14,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/3/35/Dendro_Slime_Icon.png/revision/latest?cb=20240505155446",
+        "name":"Dendro Slime",
+        "type":"Slime",
+        "elemental":"Dendro",
+        "hp":"~150",
+        "description":"A rare slime type infused with Dendro energy."
+    },
+    {
+        "id":15,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Large_Hydro_Slime_Icon.png/revision/latest?cb=20240505153115",
+        "name":"Large Hydro Slime",
+        "type":"Slime",
+        "elemental":"Hydro",
+        "hp":"~600",
+        "description":"A larger Hydro-infused slime."
+    },
+    {
+        "id":16,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/5/56/Large_Anemo_Slime_Icon.png/revision/latest?cb=20240505152902",
+        "name":"Large Anemo Slime",
+        "type":"Slime",
+        "elemental":"Anemo",
+        "hp":"~600",
+        "description":"A larger Anemo-infused slime."
+    },
+    {
+        "id":17,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Large_Cryo_Slime_Icon.png/revision/latest?cb=20240505155329",
+        "name":"Large Cryo Slime",
+        "type":"Slime",
+        "elemental":"Cryo",
+        "hp":"~600",
+        "description":"A larger Cryo-infused slime."
+    },
+    {
+        "id":18,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Large_Geo_Slime_Icon.png/revision/latest?cb=20240313101337",
+        "name":"Large Geo Slime",
+        "type":"Slime",
+        "elemental":"Geo",
+        "hp":"~600",
+        "description":"A larger Geo-infused slime."
+    },
+    {
+        "id":19,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Large_Electro_Slime_Icon.png/revision/latest?cb=20240505152734",
+        "name":"Large Electro Slime",
+        "type":"Slime",
+        "elemental":"Electro",
+        "hp":"~600",
+        "description":"A larger Electro-infused slime."
+    },
+    {
+        "id":20,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Large_Pyro_Slime_Icon_Old.png/revision/latest?cb=20210314161250",
+        "name":"Large Pyro Slime",
+        "type":"Slime",
+        "elemental":"Pyro",
+        "hp":"~600",
+        "description":"A larger Pyro-infused slime."
+    },
+    {
+        "id":21,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Pyro_Abyss_Mage_Icon.png/revision/latest?cb=20230228083532",
+        "name":"Pyro Abyss Mage",
+        "type":"Abyss Order",
+        "elemental":"Pyro",
+        "hp":"~3,500",
+        "description":"A mage that uses Pyro attacks and generates a shield."
+    },
+    {
+        "id":22,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Electro_Abyss_Mage_Icon.png/revision/latest?cb=20230228083554",
+        "name":"Electro Abyss Mage",
+        "type":"Abyss Order",
+        "elemental":"Electro",
+        "hp":"~3,500",
+        "description":"A mage that uses Electro attacks and generates a shield."
+    },
+    {
+        "id":23,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/49/Cryo_Abyss_Mage_Icon.png/revision/latest?cb=20230228083543",
+        "name":"Cryo Abyss Mage",
+        "type":"Abyss Order",
+        "elemental":"Cryo",
+        "hp":"~3,500",
+        "description":"A mage that uses Cryo attacks and generates a shield."
+    },
+    {
+        "id":24,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/1/14/Hydro_Abyss_Mage_Icon.png/revision/latest?cb=20230228083522",
+        "name":"Abyss Herald: Wicked Torrents",
+        "type":"Abyss Order",
+        "elemental":"Hydro",
+        "hp":"~8,000",
+        "description":"A powerful Abyss Order commander with Hydro attacks."
+    },
+    {
+        "id":25,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/5/5a/Electro_Abyss_Mage_Icon.png/revision/latest?cb=20230228083554",
+        "name":"Abyss Lector: Violet Lightning",
+        "type":"Abyss Order",
+        "elemental":"Electro",
+        "hp":"~10,000",
+        "description":"An elite Abyss Order enemy with Electro abilities."
+    },
+    {
+        "id":26,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/2/23/Fatui_Electrohammer_Vanguard_Icon.png/revision/latest?cb=20201122053032",
+        "name":"Fatui Skirmisher - Electrohammer Vanguard",
+        "type":"Fatui",
+        "elemental":"Electro",
+        "hp":"~3,000",
+        "description":"A soldier wielding an Electro hammer."
+    },
+    {
+        "id":27,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Fatui_Geochanter_Bracer_Icon.png/revision/latest?cb=20220110020833",
+        "name":"Fatui Skirmisher - Geochanter Bracer",
+        "type":"Fatui",
+        "elemental":"Geo",
+        "hp":"~3,000",
+        "description":"A soldier using Geo abilities to generate shields."
+    },
+    {
+        "id":28,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Fatui_Hydrogunner_Legionnaire_Icon.png/revision/latest?cb=20230412030514",
+        "name":"Fatui Skirmisher - Hydrogunner Legionnaire",
+        "type":"Fatui",
+        "elemental":"Hydro",
+        "hp":"~3,000",
+        "description":"A soldier using Hydro to heal and attack."
+    },
+    {
+        "id":29,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Fatui_Pyroslinger_Bracer_Icon.png/revision/latest?cb=20201122053031",
+        "name":"Fatui Skirmisher - Pyroslinger Bracer",
+        "type":"Fatui",
+        "elemental":"Pyro",
+        "hp":"~3,000",
+        "description":"A soldier using Pyro guns for ranged attacks."
+    },
+    {
+        "id":30,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/6/63/Fatui_Cryogunner_Legionnaire_Icon.png/revision/latest?cb=20230412030512",
+        "name":"Fatui Skirmisher - Cryogunner Legionnaire",
+        "type":"Fatui",
+        "elemental":"Cryo",
+        "hp":"~3,000",
+        "description":"A soldier using Cryo abilities for freezing attacks."
+    },
+    {
+        "id":31,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/85/Fatui_Electro_Cicin_Mage_Icon.png/revision/latest?cb=20201120065947",
+        "name":"Fatui Electro Cicin Mage",
+        "type":"Fatui",
+        "elemental":"Electro",
+        "hp":"~5,000",
+        "description":"A mage who controls Electro Cicin insects."
+    },
+    {
+        "id":32,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Fatui_Cryo_Cicin_Mage_Icon.png/revision/latest?cb=20230412030510",
+        "name":"Fatui Cryo Cicin Mage",
+        "type":"Fatui",
+        "elemental":"Cryo",
+        "hp":"~5,000",
+        "description":"A mage who controls Cryo Cicin insects."
+    },
+    {
+        "id":33,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/9/92/Ruin_Guard_Icon.png/revision/latest?cb=20201120070819",
+        "name":"Ruin Guard",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~12,000",
+        "description":"An ancient war machine with physical attacks and missiles."
+    },
+    {
+        "id":34,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/8e/Ruin_Hunter_Icon.png/revision/latest?cb=20201120070727",
+        "name":"Ruin Hunter",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~15,000",
+        "description":"An upgraded Ruin Guard capable of flight."
+    },
+    {
+        "id":35,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/e1/Ruin_Grader_Icon.png/revision/latest?cb=20201223150423",
+        "name":"Ruin Grader",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~20,000",
+        "description":"A powerful, heavily armored Ruin Machine."
+    },
+    {
+        "id":36,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Ruin_Cruiser_Icon.png/revision/latest?cb=20230412030531",
+        "name":"Ruin Cruiser",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~8,000",
+        "description":"A variant of the Ruin Hunter focused on ranged attacks."
+    },
+    {
+        "id":37,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Ruin_Destroyer_Icon.png/revision/latest?cb=20230412030456",
+        "name":"Ruin Destroyer",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~8,000",
+        "description":"A variant of the Ruin Hunter focused on melee attacks."
+    },
+    {
+        "id":38,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Ruin_Defender_Icon.png/revision/latest?cb=20230412030454",
+        "name":"Ruin Defender",
+        "type":"Ruin Machines",
+        "elemental":null,
+        "hp":"~8,000",
+        "description":"A variant of the Ruin Hunter with enhanced defenses."
+    },
+    {
+        "id":39,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Treasure_Hoarder_Scout_1_Icon.png/revision/latest?cb=20201122220316",
+        "name":"Treasure Hoarder Scout",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~400",
+        "description":"Quick and agile, scouts the area."
+    },
+    {
+        "id":40,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/c/c7/Treasure_Hoarder_Marksman_1_Icon.png/revision/latest?cb=20201122220315",
+        "name":"Treasure Hoarder Marksman",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~450",
+        "description":"Uses a crossbow for ranged attacks."
+    },
+    {
+        "id":41,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/3/33/Treasure_Hoarder_Seaman_Icon.png/revision/latest?cb=20201122220316",
+        "name":"Treasure Hoarder Seaman",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~500",
+        "description":"A melee-focused Treasure Hoarder."
+    },
+    {
+        "id":42,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/d/df/Treasure_Hoarder_Handyman_Icon.png/revision/latest?cb=20201122220315",
+        "name":"Treasure Hoarder Handyman",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~500",
+        "description":"A versatile member of the Treasure Hoarders."
+    },
+    {
+        "id":43,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Treasure_Hoarder_Crusher_1_Icon.png/revision/latest?cb=20201122220314",
+        "name":"Treasure Hoarder Crusher",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~1,000",
+        "description":"Wields a large weapon for crushing blows."
+    },
+    {
+        "id":44,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Treasure_Hoarder_Gravedigger_1_Icon.png/revision/latest?cb=20201122220315",
+        "name":"Treasure Hoarder Gravedigger",
+        "type":"Treasure Hoarder",
+        "elemental":null,
+        "hp":"~1,000",
+        "description":"Uses a shovel as a weapon."
+    },
+    {
+        "id":45,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/b/bd/Treasure_Hoarder_Pyro_Potioneer_Icon.png/revision/latest?cb=20201122220316",
+        "name":"Treasure Hoarder Pyro Potioneer",
+        "type":"Treasure Hoarder",
+        "elemental":"Pyro",
+        "hp":"~1,000",
+        "description":"Uses Pyro potions for explosive attacks."
+    },
+    {
+        "id":46,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/2/22/Treasure_Hoarder_Cryo_Potioneer_Icon.png/revision/latest?cb=20201122220315",
+        "name":"Treasure Hoarder Cryo Potioneer",
+        "type":"Treasure Hoarder",
+        "elemental":"Cryo",
+        "hp":"~1,000",
+        "description":"Uses Cryo potions to freeze enemies."
+    },
+    {
+        "id":47,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/9/94/Pyro_Regisvine_Icon.png/revision/latest?cb=20230412030523",
+        "name":"Pyro Regisvine",
+        "type":"Boss",
+        "elemental":"Pyro",
+        "hp":"~500,000",
+        "description":"A giant Pyro-infused plant creature."
+    },
+    {
+        "id":48,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/e2/Cryo_Regisvine_Icon.png/revision/latest?cb=20201120070151",
+        "name":"Cryo Regisvine",
+        "type":"Boss",
+        "elemental":"Cryo",
+        "hp":"~500,000",
+        "description":"A giant Cryo-infused plant creature."
+    },
+    {
+        "id":49,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Oceanid_Icon.png/revision/latest?cb=20201120070220",
+        "name":"Ocenid",
+        "type":"Boss",
+        "elemental":"Hydro",
+        "hp":"~280,000",
+        "description":"Spawns Hydro Mimics to fight on its behalf."
+    },
+    {
+        "id":50,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/e/e6/Anemo_Hypostasis_Icon.png/revision/latest?cb=20201122050141",
+        "name":"Anemo Hypostasis",
+        "type":"Boss",
+        "elemental":"Anemo",
+        "hp":"~300,000",
+        "description":"A pure Anemo elemental life form."
+    },
+    {
+        "id":51,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Geo_Hypostasis_Icon.png/revision/latest?cb=20201122050106",
+        "name":"Geo Hypostasis",
+        "type":"Boss",
+        "elemental":"Geo",
+        "hp":"~300,000",
+        "description":"A pure Geo elemental life form."
+    },
+    {
+        "id":52,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/8/82/Electro_Hypostasis_Icon.png/revision/latest?cb=20201122050132",
+        "name":"Electro Hypostasis",
+        "type":"Boss",
+        "elemental":"Electro",
+        "hp":"~300,000",
+        "description":"A pure Electro elemental life form."
+    },
+    {
+        "id":53,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/44/Primo_Geovishap_Icon.png/revision/latest?cb=20210503220458",
+        "name":"Primo Geovishap",
+        "type":"Boss",
+        "elemental":"Geo",
+        "hp":"~600,000",
+        "description":"A powerful Geo-infused dragon-like creature."
+    },
+    {
+        "id":54,
+        "img":"https://static.wikia.nocookie.net/gensin-impact/images/4/41/Maguu_Kenki_Icon.png/revision/latest?cb=20210614030505",
+        "name":"Maguu Kenki",
+        "type":"Boss",
+        "elemental":"Anemo/Cryo",
+        "hp":"~550,000",
+        "description":"A mechanical samurai that wields Anemo and Cryo powers."
+    }
+]
