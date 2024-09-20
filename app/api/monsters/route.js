@@ -27,7 +27,7 @@ export async function POST(request) {
     const monsters = JSON.parse(fileContents);
     
     // Assign a new ID (simple approach)
-    const newId = monsters.length ? Math.max(monsters.map(m => m.id)) + 1 : 1;
+    const newId = monsters.length ? Math.max(...monsters.map(c => c.id)) + 1 : 1;
     const newMonster = { ...requestBody, id: newId };
 
     monsters.push(newMonster);

@@ -25,7 +25,7 @@ export async function PUT(request, { params }) {
     }
   }
 
-export async function DELETE({ params }) {
+export async function DELETE(req, { params }) {
     const id = parseInt(params.id);
 
     try {

@@ -27,7 +27,7 @@ export async function POST(request) {
     const weapons = JSON.parse(fileContents);
     
     // Assign a new ID (simple approach)
-    const newId = weapons.length ? Math.max(weapons.map(w => w.id)) + 1 : 1;
+    const newId = weapons.length ? Math.max(...weapons.map(c => c.id)) + 1 : 1;
     const newWeapon = { ...requestBody, id: newId };
 
     weapons.push(newWeapon);

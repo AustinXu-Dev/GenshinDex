@@ -26,8 +26,8 @@ export async function POST(request) {
     const fileContents = await fs.readFile(filePath, 'utf8');
     const characters = JSON.parse(fileContents);
     
-    // Assign a new ID (simple approach)
-    const newId = characters.length ? Math.max(characters.map(c => c.id)) + 1 : 1;
+    // Assign a new ID (corrected approach)
+    const newId = characters.length ? Math.max(...characters.map(c => c.id)) + 1 : 1;
     const newCharacter = { ...requestBody, id: newId };
 
     characters.push(newCharacter);
