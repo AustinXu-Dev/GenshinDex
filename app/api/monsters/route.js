@@ -21,18 +21,21 @@ export async function POST(request) {
   const requestBody = await request.json();
 
   try {
-    await dbConnect(); 
+    await dbConnect();
 
-    // Create a new monster document
-    const newMonster = new Monster(requestBody);
-    await newMonster.save(); // Save it to the database
+    const newMonster = new Monster({
+      ...requestBody,
+      id: await Monster.countDocuments() + 1,
+    });
+
+    await newMonster.save();
 
     return new Response(JSON.stringify(newMonster), {
       headers: { 'Content-Type': 'application/json' },
       status: 201,
     });
   } catch (error) {
-    console.error('Error creating monster:', error);
+    console.error('Error creating data:', error);
     return new Response('Error creating data', { status: 500 });
   }
 }

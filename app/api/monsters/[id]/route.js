@@ -21,18 +21,19 @@ export async function PUT(request, { params }) {
   }
 }
 
-export async function DELETE({ params }) {
+export async function DELETE(request, { params }) {
   const id = parseInt(params.id);
 
   try {
-    await dbConnect();
-    const deletedMonster = await Monster.findOneAndDelete({ id });
+      await dbConnect();
 
-    if (!deletedMonster) return new Response('Monster not found', { status: 404 });
+      const deletedMonster = await Monster.findOneAndDelete({ id: id });
 
-    return new Response('Monster deleted', { status: 200 });
+      if (!deletedMonster) return new Response('Monster not found', { status: 404 });
+
+      return new Response('Monster deleted', { status: 200 });
   } catch (error) {
-    console.error('Error deleting monster:', error);
-    return new Response('Error deleting data', { status: 500 });
+      console.error('Error deleting monster:', error);
+      return new Response('Error deleting data', { status: 500 });
   }
 }
