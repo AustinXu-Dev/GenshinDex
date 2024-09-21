@@ -1,26 +1,22 @@
-// api/monster/[id]/route.js
-import { promises as fs } from 'fs';
-import path from 'path';
-
-const filePath = path.join(process.cwd(), 'app/data/monsters.json');
+import dbConnect from '@/lib/mongodb';
+import Monster from '@/models/Monster';
 
 export async function PUT(request, { params }) {
   const id = parseInt(params.id);
   const updatedData = await request.json();
 
   try {
-    const monsters = JSON.parse(await fs.readFile(filePath, 'utf8'));
-    const monsterIndex = monsters.findIndex(m => m.id === id);
+    await dbConnect();
+    const updatedMonster = await Monster.findOneAndUpdate({ id }, updatedData, {
+      new: true,
+      runValidators: true,
+    });
 
-    if (monsterIndex === -1) return new Response('Monster not found', { status: 404 });
+    if (!updatedMonster) return new Response('Monster not found', { status: 404 });
 
-    monsters[monsterIndex] = { ...monsters[monsterIndex], ...updatedData };
-
-    await fs.writeFile(filePath, JSON.stringify(monsters, null, 2), 'utf8');
-
-    return new Response('Monster updated successfully', { status: 200 });
+    return Response.json(updatedMonster);
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error updating monster:', error);
     return new Response('Error updating data', { status: 500 });
   }
 }
@@ -29,16 +25,14 @@ export async function DELETE({ params }) {
   const id = parseInt(params.id);
 
   try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    let monsters = JSON.parse(fileContents);
+    await dbConnect();
+    const deletedMonster = await Monster.findOneAndDelete({ id });
 
-    monsters = monsters.filter(monster => monster.id !== id);
-
-    await fs.writeFile(filePath, JSON.stringify(monsters, null, 2), 'utf8');
+    if (!deletedMonster) return new Response('Monster not found', { status: 404 });
 
     return new Response('Monster deleted', { status: 200 });
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error deleting monster:', error);
     return new Response('Error deleting data', { status: 500 });
   }
 }

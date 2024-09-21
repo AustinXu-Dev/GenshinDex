@@ -1,18 +1,20 @@
 // app/api/characters/route.js
-import { promises as fs } from 'fs';
-import path from 'path';
-
-const filePath = path.join(process.cwd(), 'app/data/characters.json');
+import dbConnect from '@/lib/mongodb'; // Import your MongoDB connection
+import Character from '@/models/Character'; // Import the Character model
 
 export async function GET(request) {
   const id = parseInt(new URL(request.url).searchParams.get('id'));
 
   try {
-    const characters = JSON.parse(await fs.readFile(filePath, 'utf8'));
-    const character = id ? characters.find(c => c.id === id) : characters;
-    if (!character && id) return new Response('Character not found', { status: 404 });
+    await dbConnect(); // Ensure the DB connection is established
+    const characters = id ? await Character.find({ id }) : await Character.find({});
+    
+    if (!characters.length && id) return new Response('Character not found', { status: 404 });
 
-    return Response.json(character);
+    return new Response(JSON.stringify(characters), {
+      headers: { 'Content-Type': 'application/json' },
+      status: 200,
+    });
   } catch (error) {
     console.error('Error:', error);
     return new Response('Error reading data', { status: 500 });
@@ -23,23 +25,22 @@ export async function POST(request) {
   const requestBody = await request.json();
 
   try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const characters = JSON.parse(fileContents);
-    
-    // Assign a new ID (corrected approach)
-    const newId = characters.length ? Math.max(...characters.map(c => c.id)) + 1 : 1;
-    const newCharacter = { ...requestBody, id: newId };
+    await dbConnect(); // Ensure the DB connection is established
 
-    characters.push(newCharacter);
+    // Assign a new ID (you might want to adjust this logic depending on your needs)
+    const newCharacter = new Character({
+      ...requestBody,
+      id: await Character.countDocuments() + 1, // Set a new ID based on the current count
+    });
 
-    await fs.writeFile(filePath, JSON.stringify(characters, null, 2), 'utf8');
+    await newCharacter.save(); // Save the new character to MongoDB
 
     return new Response(JSON.stringify(newCharacter), {
       headers: { 'Content-Type': 'application/json' },
-      status: 201
+      status: 201,
     });
   } catch (error) {
-    console.error('Error reading or writing JSON file:', error);
+    console.error('Error creating data:', error);
     return new Response('Error creating data', { status: 500 });
   }
 }

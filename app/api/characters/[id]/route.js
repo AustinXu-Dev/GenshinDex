@@ -1,44 +1,45 @@
-// api/characters/[id]/route.js
-import { promises as fs } from 'fs';
-import path from 'path';
-
-const filePath = path.join(process.cwd(), 'app/data/characters.json');
+// app/api/characters/[id]/route.js
+import dbConnect from '@/lib/mongodb'; // Import your MongoDB connection
+import Character from '@/models/Character'; // Import the Character model
 
 export async function PUT(request, { params }) {
     const id = parseInt(params.id);
     const updatedData = await request.json();
-  
-    try {
-      const characters = JSON.parse(await fs.readFile(filePath, 'utf8'));
-      const characterIndex = characters.findIndex(c => c.id === id);
-  
-      if (characterIndex === -1) return new Response('Character not found', { status: 404 });
-  
-      characters[characterIndex] = { ...characters[characterIndex], ...updatedData };
-  
-      await fs.writeFile(filePath, JSON.stringify(characters, null, 2), 'utf8');
-  
-      return new Response('Character updated successfully', { status: 200 });
-    } catch (error) {
-      console.error('Error:', error);
-      return new Response('Error updating data', { status: 500 });
-    }
-  }
 
-export async function DELETE(req, { params }) {
+    try {
+        await dbConnect(); // Ensure the DB connection is established
+
+        const updatedCharacter = await Character.findOneAndUpdate(
+            { id: id }, // Find character by ID
+            { $set: updatedData }, // Update with new data
+            { new: true } // Return the updated document
+        );
+
+        if (!updatedCharacter) return new Response('Character not found', { status: 404 });
+
+        return new Response(JSON.stringify(updatedCharacter), {
+            headers: { 'Content-Type': 'application/json' },
+            status: 200,
+        });
+    } catch (error) {
+        console.error('Error updating character:', error);
+        return new Response('Error updating data', { status: 500 });
+    }
+}
+
+export async function DELETE(request, { params }) {
     const id = parseInt(params.id);
 
     try {
-        const fileContents = await fs.readFile(filePath, 'utf8');
-        let characters = JSON.parse(fileContents);
+        await dbConnect(); // Ensure the DB connection is established
 
-        characters = characters.filter(character => character.id !== id);
+        const deletedCharacter = await Character.findOneAndDelete({ id: id }); // Delete character by ID
 
-        await fs.writeFile(filePath, JSON.stringify(characters, null, 2), 'utf8');
+        if (!deletedCharacter) return new Response('Character not found', { status: 404 });
 
         return new Response('Character deleted', { status: 200 });
     } catch (error) {
-        console.error('Error reading or writing JSON file:', error);
+        console.error('Error deleting character:', error);
         return new Response('Error deleting data', { status: 500 });
     }
 }

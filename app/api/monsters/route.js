@@ -1,21 +1,19 @@
-// api/monsters/route.js
-import { promises as fs } from 'fs';
-import path from 'path';
-
-const filePath = path.join(process.cwd(), 'app/data/monsters.json');
+import dbConnect from '@/lib/mongodb'; 
+import Monster from '@/models/Monster'; 
 
 export async function GET(request) {
   const id = parseInt(new URL(request.url).searchParams.get('id'));
 
   try {
-    const monsters = JSON.parse(await fs.readFile(filePath, 'utf8'));
-    const monster = id ? monsters.find(m => m.id === id) : monsters;
-    if (!monster && id) return new Response('Monster not found', { status: 404 });
+    await dbConnect(); // Ensure the DB connection is established
+    const monsters = id ? await Monster.findOne({ id }) : await Monster.find();
+    
+    if (!monsters && id) return new Response('Monster not found', { status: 404 });
 
-    return Response.json(monster);
+    return Response.json(monsters);
   } catch (error) {
     console.error('Error:', error);
-    return new Response('Error reading data', { status: 500 });
+    return new Response('Error fetching data', { status: 500 });
   }
 }
 
@@ -23,23 +21,18 @@ export async function POST(request) {
   const requestBody = await request.json();
 
   try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const monsters = JSON.parse(fileContents);
-    
-    // Assign a new ID (simple approach)
-    const newId = monsters.length ? Math.max(...monsters.map(c => c.id)) + 1 : 1;
-    const newMonster = { ...requestBody, id: newId };
+    await dbConnect(); 
 
-    monsters.push(newMonster);
-
-    await fs.writeFile(filePath, JSON.stringify(monsters, null, 2), 'utf8');
+    // Create a new monster document
+    const newMonster = new Monster(requestBody);
+    await newMonster.save(); // Save it to the database
 
     return new Response(JSON.stringify(newMonster), {
       headers: { 'Content-Type': 'application/json' },
-      status: 201
+      status: 201,
     });
   } catch (error) {
-    console.error('Error reading or writing JSON file:', error);
+    console.error('Error creating monster:', error);
     return new Response('Error creating data', { status: 500 });
   }
 }

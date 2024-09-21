@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
     "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18",
