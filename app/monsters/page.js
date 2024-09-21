@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function MonsterPage() {
   const API_BASE = "/api";
@@ -273,7 +274,13 @@ export default function MonsterPage() {
                 Edit
               </button>
             </div>
-            <img src={monster.img} alt={monster.name} className="w-full h-48 object-cover" />
+            <Image
+              src={monster.img}
+              alt={monster.name}
+              width={500} // you can set appropriate width
+              height={200} // you can set appropriate height
+              className="w-full h-48 object-cover"
+            />
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold">{monster.name}</h2>
               <p className="text-gray-600">Type: {monster.type}</p>
@@ -295,7 +302,13 @@ export default function MonsterPage() {
             </button>
             {popupType === 'view' && selectedMonster && (
               <>
-                <img src={selectedMonster.img} alt={selectedMonster.name} className="w-32 h-32 object-cover mx-auto" />
+                <Image
+                  src={monster.img}
+                  alt={monster.name}
+                  width={500} // you can set appropriate width
+                  height={200} // you can set appropriate height
+                  className="w-full h-48 object-cover"
+                />
                 <h2 className="text-black text-2xl font-bold text-center">{selectedMonster.name}</h2>
                 <p className="text-gray-700 text-center mt-2">{selectedMonster.description}</p>
                 <div className="mt-4 space-y-2 text-center">
