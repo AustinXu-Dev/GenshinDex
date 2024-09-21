@@ -134,7 +134,7 @@ export default function WeaponPage() {
       rarity: "",
       baseattack: "",
       substat: "",
-      "passive ability": "",
+      "passiveAbility": "",
       image: "",
     });
     setEditMode(false);
@@ -300,7 +300,7 @@ export default function WeaponPage() {
               <>
                 <img src={selectedWeapon.image} alt={selectedWeapon.name} className="w-32 h-32 object-cover mx-auto" />
                 <h2 className="text-black text-2xl font-bold text-center">{selectedWeapon.name}</h2>
-                <p className="text-gray-700 text-center mt-2">{selectedWeapon["passive ability"] || 'None'}</p>
+                <p className="text-gray-700 text-center mt-2">{selectedWeapon["passiveAbility"] || 'None'}</p>
                 <div className="mt-4 space-y-2 text-center">
                   <p className="text-black"><strong>Type:</strong> {selectedWeapon.type}</p>
                   <p className="text-black"><strong>Rarity:</strong> {selectedWeapon.rarity}</p>
@@ -319,7 +319,7 @@ export default function WeaponPage() {
                   <input name="rarity" type="number" defaultValue={selectedWeapon?.rarity || ''} placeholder="Rarity" {...register("rarity")} className="w-full p-2 border rounded-md text-gray-900" required />
                   <input name="baseattack" defaultValue={selectedWeapon?.baseattack || ''} placeholder="Base Attack" {...register("baseattack")} className="w-full p-2 border rounded-md text-gray-900" required />
                   <input name="substat" defaultValue={selectedWeapon?.substat || ''} placeholder="Substat" {...register("substat")} className="w-full p-2 border rounded-md text-gray-900" />
-                  <textarea name="passive ability" defaultValue={selectedWeapon?.["passive ability"] || ''} placeholder="Passive Ability" {...register("passive ability")} className="w-full p-2 border rounded-md text-gray-900" />
+                  <textarea name="passiveAbility" defaultValue={selectedWeapon?.["passiveAbility"] || ''} placeholder="passiveAbility" {...register("passiveAbility")} className="w-full p-2 border rounded-md text-gray-900" />
                   <input name="image" defaultValue={selectedWeapon?.image || ''} placeholder="Image URL" {...register("image")} className="w-full p-2 border rounded-md text-gray-900" required />
                 </div>
                 <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-blue-700">

@@ -274,13 +274,15 @@ export default function MonsterPage() {
                 Edit
               </button>
             </div>
-            <Image
+            {/* <Image
               src={monster.img}
               alt={monster.name}
               width={500} // you can set appropriate width
               height={200} // you can set appropriate height
               className="w-full h-48 object-cover"
-            />
+            /> */}
+            <img src={monster.img} alt={monster.name} className="w-full h-48 object-cover" />
+
             <div className="p-4">
               <h2 className="text-black text-xl font-semibold">{monster.name}</h2>
               <p className="text-gray-600">Type: {monster.type}</p>
@@ -302,13 +304,15 @@ export default function MonsterPage() {
             </button>
             {popupType === 'view' && selectedMonster && (
               <>
-                <Image
-                  src={selectedMonster.img}
+                {/* <Image
+                  src={selectedMonster.img} 
                   alt={selectedMonster.name}
                   width={500} // you can set appropriate width
                   height={200} // you can set appropriate height
                   className="w-full h-48 object-cover"
-                />
+                /> */}
+                <img src={selectedMonster.img} alt={selectedMonster.name} className="w-32 h-32 object-cover mx-auto" />
+
                 <h2 className="text-black text-2xl font-bold text-center">{selectedMonster.name}</h2>
                 <p className="text-gray-700 text-center mt-2">{selectedMonster.description}</p>
                 <div className="mt-4 space-y-2 text-center">
