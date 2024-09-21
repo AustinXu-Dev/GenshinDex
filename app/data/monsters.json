@@ -484,14 +484,5 @@
     "elemental": "Anemo/Cryo",
     "hp": "~550,000",
     "description": "A mechanical samurai that wields Anemo and Cryo powers."
-  },
-  {
-    "name": "Shooter Bam Bam!",
-    "type": "hilichurl",
-    "elemental": "",
-    "hp": "~69",
-    "description": "I love 69!!!!",
-    "img": "https://cdn.wanderer.moe/genshin-impact/weapon-icons/waster-greatsword.png",
-    "id": 55
   }
 ]
