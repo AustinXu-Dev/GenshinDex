@@ -1,7 +1,6 @@
-
-
 export default function HomePage() {
   return (
+    
     <div className="min-h-screen bg-black-100">
       {/* Navbar */}
       <nav className="bg-black text-white p-4">
