@@ -1,21 +1,20 @@
-// api/weapons/route.js
-import { promises as fs } from 'fs';
-import path from 'path';
+import dbConnect from '@/lib/mongodb'; // Import your MongoDB connection
+import Weapon from '@/models/Weapon'; // Import the Weapon model
 
-const filePath = path.join(process.cwd(), 'app/data/weapons.json');
-
+// GET route to retrieve weapons or a specific weapon by id
 export async function GET(request) {
   const id = parseInt(new URL(request.url).searchParams.get('id'));
 
   try {
-    const weapons = JSON.parse(await fs.readFile(filePath, 'utf8'));
-    const weapon = id ? weapons.find(w => w.id === id) : weapons;
-    if (!weapon && id) return new Response('Weapon not found', { status: 404 });
+    await dbConnect(); // Ensure the DB connection is established
+    const weapons = id ? await Weapon.findOne({ id }) : await Weapon.find();
+    
+    if (!weapons && id) return new Response('Weapon not found', { status: 404 });
 
-    return Response.json(weapon);
+    return Response.json(weapons);
   } catch (error) {
     console.error('Error:', error);
-    return new Response('Error reading data', { status: 500 });
+    return new Response('Error fetching data', { status: 500 });
   }
 }
 
@@ -23,23 +22,21 @@ export async function POST(request) {
   const requestBody = await request.json();
 
   try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const weapons = JSON.parse(fileContents);
-    
-    // Assign a new ID (simple approach)
-    const newId = weapons.length ? Math.max(...weapons.map(c => c.id)) + 1 : 1;
-    const newWeapon = { ...requestBody, id: newId };
+    await dbConnect();
 
-    weapons.push(newWeapon);
+    const newWeapon = new Weapon({
+      ...requestBody,
+      id: await Weapon.countDocuments() + 1,
+    });
 
-    await fs.writeFile(filePath, JSON.stringify(weapons, null, 2), 'utf8');
+    await newWeapon.save();
 
     return new Response(JSON.stringify(newWeapon), {
       headers: { 'Content-Type': 'application/json' },
-      status: 201
+      status: 201,
     });
   } catch (error) {
-    console.error('Error reading or writing JSON file:', error);
+    console.error('Error creating data:', error);
     return new Response('Error creating data', { status: 500 });
   }
 }

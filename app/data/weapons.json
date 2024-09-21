@@ -7,7 +7,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "Elemental Mastery 265 (58)",
-    "passive ability": "Provides buffs to the eqquipped character based on the Elemental Type of other party members.It also increases Elemental Mastery for all nearby party members, and this can stack with other similar effects from multiple weapons."
+    "passiveAbility": "Provides buffs to the eqquipped character based on the Elemental Type of other party members.It also increases Elemental Mastery for all nearby party members, and this can stack with other similar effects from multiple weapons."
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "ATK 49.6% (10.8%)",
-    "passive ability": "Increases Normal Attack and Charged Attack DMG by 12~24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8~16% every 0.1 seconds the arrow is in the air for up to 5 times."
+    "passiveAbility": "Increases Normal Attack and Charged Attack DMG by 12~24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8~16% every 0.1 seconds the arrow is in the air for up to 5 times."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "CRIT DMG 88.2% (19.2%)",
-    "passive ability": "HP is increased by 16~32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20~40%. This will take effect whether the character is on-field or not."
+    "passiveAbility": "HP is increased by 16~32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20~40%. This will take effect whether the character is on-field or not."
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT Rate 33.1% (7.2%)",
-    "passive ability": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 20~40% for 8s. After the character takes DMG, their ATK will be increased by 20~40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 32~64%."
+    "passiveAbility": "After the character's Elemental Skill hits an opponent, their ATK will be increased by 20~40% for 8s. After the character takes DMG, their ATK will be increased by 20~40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 32~64%."
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "rarity": 5,
     "baseattack": "741 (49)",
     "substat": "ATK 16.5% (3.6%)",
-    "passive ability": "Gain 12~24% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2~6.4% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+    "passiveAbility": "Gain 12~24% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2~6.4% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "CRIT Rate 22.1% (4.8)",
-    "passive ability": "ATK is increased by 16~32%. When current HP increases or decreases, Normal Attack DMG will be increased by 16~32% and Charged Attack DMG will be increased by 14~28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by 8~16%."
+    "passiveAbility": "ATK is increased by 16~32%. When current HP increases or decreases, Normal Attack DMG will be increased by 16~32% and Charged Attack DMG will be increased by 14~28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by 8~16%."
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "Energy Recharge 55.1% (12%)",
-    "passive ability": "A part of the \"Millennial Movement\" that wanders amidst the winds.\nIncreases Elemental Mastery by 60~120.\nWhen the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field.\nWhen you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s.\n\"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100~200 and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s.\nOf the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+    "passiveAbility": "A part of the \"Millennial Movement\" that wanders amidst the winds.\nIncreases Elemental Mastery by 60~120.\nWhen the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field.\nWhen you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s.\n\"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100~200 and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s.\nOf the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "Energy Recharge 55.1% (12%)",
-    "passive ability": "ATK increased by 28~56% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80~120% ATK. Gain 30~50% Energy Recharge for 12s after using an Elemental Burst."
+    "passiveAbility": "ATK increased by 28~56% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80~120% ATK. Gain 30~50% Energy Recharge for 12s after using an Elemental Burst."
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "HP 49.6% (10.8%)",
-    "passive ability": "Healing Bonus increased by 10~20%, Normal Attack DMG is increased by 1~3.0% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
+    "passiveAbility": "Healing Bonus increased by 10~20%, Normal Attack DMG is increased by 1~3.0% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT Rate 33.1% (7.2%)",
-    "passive ability": "Obtain 12~24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20~40% for 8s."
+    "passiveAbility": "Obtain 12~24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20~40% for 8s."
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "CRIT DMG 44.1% (9.6%)",
-    "passive ability": "Gain 12~24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160~320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+    "passiveAbility": "Gain 12~24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160~320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "HP 49.6% (10.8%)",
-    "passive ability": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5~6.5 Energy every 2.5s, and gain 0.3~1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12~44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+    "passiveAbility": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5~6.5 Energy every 2.5s, and gain 0.3~1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12~44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT DMG 66.2% (14.4%)",
-    "passive ability": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 12~24% for 16s. Max 3 stacks. This character will gain 12~24% All Elemental DMG Bonus when they possess 3 stacks."
+    "passiveAbility": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 12~24% for 16s. Max 3 stacks. This character will gain 12~24% All Elemental DMG Bonus when they possess 3 stacks."
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "ATK 49.6% (10.8%)",
-    "passive ability": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+    "passiveAbility": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "CRIT DMG 44.1% (9.6%)",
-    "passive ability": "Gain a 12~24% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28~16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+    "passiveAbility": "Gain a 12~24% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28~16/32/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT Rate 33.1% (7.2%)",
-    "passive ability": "Elemental Skill and Elemental Burst DMG increased by 12~24%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48~20/40/60/96%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+    "passiveAbility": "Elemental Skill and Elemental Burst DMG increased by 12~24%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48~20/40/60/96%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "ATK  33.1% (7.2%)",
-    "passive ability": "Increases Elemental DMG Bonus by 12~24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby opponents to attack for 15s, dealing 160~320% ATK DMG. Can only occur once every 30s."
+    "passiveAbility": "Increases Elemental DMG Bonus by 12~24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby opponents to attack for 15s, dealing 160~320% ATK DMG. Can only occur once every 30s."
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "CRIT Rate 22.1% (4.8)",
-    "passive ability": "Increases CRIT DMG by 20~40%. Hits have a 60~100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4~2s."
+    "passiveAbility": "Increases CRIT DMG by 20~40%. Hits have a 60~100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4~2s."
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "Energy Recharge 36.8% (8%)",
-    "passive ability": "Increases all DMG by 8~16%. After using an Elemental Burst, a vacuum blade that does 80~160% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+    "passiveAbility": "Increases all DMG by 8~16%. After using an Elemental Burst, a vacuum blade that does 80~160% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "rarity": 5,
     "baseattack": "741 (49)",
     "substat": "Physical DMG Bonus 20.7% (4.5%)",
-    "passive ability": "A part of the \"Millennial Movement\" that wanders amidst the winds.\nIncreases ATK by 16~32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s.\nWhen you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s.\n\"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12~24% and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s.\nOf the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
+    "passiveAbility": "A part of the \"Millennial Movement\" that wanders amidst the winds.\nIncreases ATK by 16~32%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s.\nWhen you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s.\n\"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12~24% and increases ATK by 20~40%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s.\nOf the many effects of the \"Millennial Movement\", buffs of the same type will not stack."
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "CRIT DMG 88.2% (19.2%)",
-    "passive ability": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by 8~16% for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by 14~28% for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+    "passiveAbility": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by 8~16% for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by 14~28% for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT DMG 66.2% (14.4%)",
-    "passive ability": "HP increased by 20~40%. Additionally, provides an ATK Bonus based on 0.8~1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK bonus is increased by an additional 1~1.8% of Max HP."
+    "passiveAbility": "HP increased by 20~40%. Additionally, provides an ATK Bonus based on 0.8~1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK bonus is increased by an additional 1~1.8% of Max HP."
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "CRIT DMG 44.1% (9.6%)",
-    "passive ability": "The equipping character gains 52~104% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28~56% of their Elemental Mastery as bonus ATK. Max 3 stacks."
+    "passiveAbility": "The equipping character gains 52~104% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28~56% of their Elemental Mastery as bonus ATK. Max 3 stacks."
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT DMG 66.2% (14.4%)",
-    "passive ability": "DMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%~32%/64%/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%~12%/15%/18%"
+    "passiveAbility": "DMG dealt by Charged Attacks increased by 16~32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%~32%/64%/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%~12%/15%/18%"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "ATK 49.6% (10.8%)",
-    "passive ability": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+    "passiveAbility": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "CRIT DMG 66.2% (14.4%)",
-    "passive ability": "Increases ATK by 20~40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40~24/48/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+    "passiveAbility": "Increases ATK by 20~40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40~24/48/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "rarity": 5,
     "baseattack": "542 (44)",
     "substat": "CRIT DMG 88.2% (19.2%)",
-    "passive ability": "HP is increased by 16~32%. When current HP increases or decreases, Charged Attack DMG will be increased by 14~30% for 4s. Max 3 stacks, can be triggered once every 0.3s. When you have 3 stacks or refresh a third stack's duration, 8~12 Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+    "passiveAbility": "HP is increased by 16~32%. When current HP increases or decreases, Charged Attack DMG will be increased by 14~30% for 4s. Max 3 stacks, can be triggered once every 0.3s. When you have 3 stacks or refresh a third stack's duration, 8~12 Energy will be restored. This Energy restoration effect can be triggered once every 12s."
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "CRIT DMG 44.1% (9.6%)",
-    "passive ability": "Normal Attack SPD is increased by 10~20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8~9.6% every second for 14s. After this character hits an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6~19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48~96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    "passiveAbility": "Normal Attack SPD is increased by 10~20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8~9.6% every second for 14s. After this character hits an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6~19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48~96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "rarity": 5,
     "baseattack": "674 (48)",
     "substat": "CRIT Rate 22.1% (4.8%)",
-    "passive ability": "Increases ATK by 20~40%. When characters in your party obtain Elemental Shards from Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18~36%. The Seal lasts for 15s, and the equipped may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG."
+    "passiveAbility": "Increases ATK by 20~40%. When characters in your party obtain Elemental Shards from Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18~36%. The Seal lasts for 15s, and the equipped may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG."
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "ATK 49.6% (10.8%)",
-    "passive ability": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+    "passiveAbility": "Increases Shield Strength by 20~40%. Scoring hits on opponents increases ATK by 4~8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
   },
   {
     "id": 31,
@@ -307,7 +307,7 @@
     "rarity": 5,
     "baseattack": "608 (46)",
     "substat": "ATK 49.6% (10.8%)",
-    "passive ability": "Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40~80% for 12s. Can only occur once every 30s."
+    "passiveAbility": "Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40~80% for 12s. Can only occur once every 30s."
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Energy Recharge  45.9% (10.0%)",
-    "passive ability": "Increases Elemental Burst DMG by 16~32% and Elemental Burst CRIT Rate by 6~12%."
+    "passiveAbility": "Increases Elemental Burst DMG by 16~32% and Elemental Burst CRIT Rate by 6~12%."
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Energy Recharge 45.9% (10.0%)",
-    "passive ability": "Increases Elemental Skill CRIT Rate by 8~16%. Additionally, increases Energy Recharge by 16~32% for 5s after using an Elemental Skill."
+    "passiveAbility": "Increases Elemental Skill CRIT Rate by 8~16%. Additionally, increases Energy Recharge by 16~32% for 5s after using an Elemental Skill."
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "rarity": 4,
     "baseattack": "454 (41)",
     "substat": "ATK 55.1% (12%)",
-    "passive ability": "Increases Elemental Burst DMG by 12~24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100~200% ATK as AoE DMG. This effect can occur once every 15s."
+    "passiveAbility": "Increases Elemental Burst DMG by 12~24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100~200% ATK as AoE DMG. This effect can occur once every 15s."
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "rarity": 4,
     "baseattack": "565 (44)",
     "substat": "Elemental Mastery 110 (24)",
-    "passive ability": "Triggering an Elemental reaction grants a 8~16% Elemental DMG Bonus for 10s. Max 2 stacks."
+    "passiveAbility": "Triggering an Elemental reaction grants a 8~16% Elemental DMG Bonus for 10s. Max 2 stacks."
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Physical DMG Bonus 51.7% (11.3%)",
-    "passive ability": "Normal Attack hits on opponents increase Elemental Skill DMG by 20~40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20~40% for 5s."
+    "passiveAbility": "Normal Attack hits on opponents increase Elemental Skill DMG by 20~40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20~40% for 5s."
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "rarity": 4,
     "baseattack": "454 (41)",
     "substat": "Elemental Mastery 221 (48)",
-    "passive ability": "After dealing damage to an opponent with an Elemental Skill, the skill has a 40~80% chance to end its own CD. Can only occur once every 30~16s."
+    "passiveAbility": "After dealing damage to an opponent with an Elemental Skill, the skill has a 40~80% chance to end its own CD. Can only occur once every 30~16s."
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "rarity": 4,
     "baseattack": "620 (45)",
     "substat": "Elemental Mastery 55 (12)",
-    "passive ability": "Increases DMG dealt by the character equipping this weapon by 12~24%. Taking DMG disables this effect for 5s."
+    "passiveAbility": "Increases DMG dealt by the character equipping this weapon by 12~24%. Taking DMG disables this effect for 5s."
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "HP 41.3% (9%)",
-    "passive ability": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40~80 Elemental Mastery, and 2s after the effect occurs, 2~4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+    "passiveAbility": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40~80 Elemental Mastery, and 2s after the effect occurs, 2~4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
   },
   {
     "id": 40,
@@ -397,7 +397,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Elemental Mastery 165 (36)",
-    "passive ability": "Increases Elemental Skill and Elemental Burst DMG by 24~48%."
+    "passiveAbility": "Increases Elemental Skill and Elemental Burst DMG by 24~48%."
   },
   {
     "id": 41,
@@ -407,7 +407,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "CRIT Rate 27.6% (6%)",
-    "passive ability": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40~80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14~10s."
+    "passiveAbility": "Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40~80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14~10s."
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "CRIT DMG 55.1% (12%)",
-    "passive ability": "When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.\nRecitative: ATK is increased by 60~120%.\nAria: Increases all Elemental DMG by 48~96%.\nInterlude: Elemental Mastery is increased by 240~480"
+    "passiveAbility": "When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.\nRecitative: ATK is increased by 60~120%.\nAria: Increases all Elemental DMG by 48~96%.\nInterlude: Elemental Mastery is increased by 240~480"
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "ATK 41.3% (9%)",
-    "passive ability": "After the wielder is healed, ATK will be increased by 24~48% for 8s. This can be triggered even when the character is not on the field."
+    "passiveAbility": "After the wielder is healed, ATK will be increased by 24~48% for 8s. This can be triggered even when the character is not on the field."
   },
   {
     "id": 44,
@@ -437,7 +437,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Elemental Mastery 165 (36)",
-    "passive ability": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 16~32% more DMG to the opponent affected by Cursed Parasol."
+    "passiveAbility": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 16~32% more DMG to the opponent affected by Cursed Parasol."
   },
   {
     "id": 45,
@@ -447,7 +447,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Elemental Mastery 165 (36)",
-    "passive ability": "The following effect will trigger every 10s: The equipping character will gain 24~48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+    "passiveAbility": "The following effect will trigger every 10s: The equipping character will gain 24~48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
   },
   {
     "id": 46,
@@ -457,7 +457,7 @@
     "rarity": 4,
     "baseattack": "620 (45)",
     "substat": "ATK 13.8% (3%)",
-    "passive ability": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way."
+    "passiveAbility": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way."
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "DEF 51.7% (11.3%)",
-    "passive ability": "On hit, Normal or Charged Attacks increase ATK and DEF by 6~12% for 6s. Max 4 stacks (24~48% total). Can only occur once every 0.5s."
+    "passiveAbility": "On hit, Normal or Charged Attacks increase ATK and DEF by 6~12% for 6s. Max 4 stacks (24~48% total). Can only occur once every 0.5s."
   },
   {
     "id": 48,
@@ -477,7 +477,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Elemental Mastery 165 (36)",
-    "passive ability": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16~32% for 6s"
+    "passiveAbility": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16~32% for 6s"
   },
   {
     "id": 49,
@@ -487,7 +487,7 @@
     "rarity": 4,
     "baseattack": "565 (44)",
     "substat": "Energy Recharge 30.6% (6.7%)",
-    "passive ability": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by 14~22% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by 20~40% for 5s."
+    "passiveAbility": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by 14~22% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by 20~40% for 5s."
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "CRIT Rate 27.6% (6%)",
-    "passive ability": "DMG dealt by Elemental Skill and Elemental Burst is increased by 16~32%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 2~4%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 2~4%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+    "passiveAbility": "DMG dealt by Elemental Skill and Elemental Burst is increased by 16~32%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 2~4%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 2~4%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
   },
   {
     "id": 51,
@@ -507,7 +507,7 @@
     "rarity": 4,
     "baseattack": "510 (42)",
     "substat": "Elemental Mastery 165 (36)",
-    "passive ability": "The following effect will trigger every 10s: The equipping character will gain 0.036~0.072% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
+    "passiveAbility": "The following effect will trigger every 10s: The equipping character will gain 0.036~0.072% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "rarity": 3,
     "baseattack": "401 (39)",
     "substat": "HP 35.2% (7.7%)",
-    "passive ability": "When switching characters, the new character taking the field has their ATK increased by 24~48% for 10s. This effect can only occur once every 20s."
+    "passiveAbility": "When switching characters, the new character taking the field has their ATK increased by 24~48% for 10s. This effect can only occur once every 20s."
   },
   {
     "id": 53,
@@ -527,7 +527,7 @@
     "rarity": 3,
     "baseattack": "448 (40)",
     "substat": "DEF 29.3% (6.4%)",
-    "passive ability": "Each Elemental Orb or Particle collected restores 1~2% HP."
+    "passiveAbility": "Each Elemental Orb or Particle collected restores 1~2% HP."
   },
   {
     "id": 54,
@@ -537,7 +537,7 @@
     "rarity": 3,
     "baseattack": "448 (40)",
     "substat": "CRIT Rate 15.6% (3.4%)",
-    "passive ability": "Defeating an opponent increases Movement SPD and ATK by 12~20% for 15s."
+    "passiveAbility": "Defeating an opponent increases Movement SPD and ATK by 12~20% for 15s."
   },
   {
     "id": 55,
@@ -547,7 +547,7 @@
     "rarity": 3,
     "baseattack": "401 (39)",
     "substat": "DEF 43.9% (9.6%)",
-    "passive ability": "Defeating an opponent restores 8~16% HP."
+    "passiveAbility": "Defeating an opponent restores 8~16% HP."
   },
   {
     "id": 56,
@@ -557,16 +557,6 @@
     "rarity": 3,
     "baseattack": "401 (39)",
     "substat": "CRIT Rate 23.4% (5.1%)",
-    "passive ability": "Increases Normal Attack DMG by 24~48%."
-  },
-  {
-    "id": 57,
-    "image": "https://cdn.wanderer.moe/genshin-impact/weapon-icons/waster-greatsword.png",
-    "name": "Waster Greatsword",
-    "type": "Claymore",
-    "rarity": 1,
-    "baseattack": "185 (23)",
-    "substat": null,
-    "passive ability": null
+    "passiveAbility": "Increases Normal Attack DMG by 24~48%."
   }
 ]
