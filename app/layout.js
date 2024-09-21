@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 // Update the metadata
 export const metadata = {
-  title: "Genshin Impact Database", // New title
+  title: "GenshinDex", // New title
   description: "Explore characters, weapons, and monsters in Genshin Impact.", // New description
 };
 
