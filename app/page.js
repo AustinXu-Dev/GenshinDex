@@ -1,11 +1,20 @@
 export default function HomePage() {
   return (
-    
     <div className="min-h-screen bg-black-100">
       {/* Navbar */}
       <nav className="bg-black text-white p-4">
-        <div className="container mx-auto flex justify-between">
-          <div className="text-2xl font-bold">Genshin Impact Database</div>
+        <div className="container mx-auto flex justify-between items-center">
+          {/* Logo and Title */}
+          <div className="flex items-center space-x-2">
+            <img
+              src="/img/logo.png"  // Path to your icon image
+              alt="Genshin Icon"
+              className="h-8 w-8"   // Set the size of the icon
+            />
+            <div className="text-2xl font-bold">Genshin Impact Database</div>
+          </div>
+
+          {/* Navigation Links */}
           <ul className="flex space-x-4">
             <li>
               <a href="/characters" className="hover:underline">
@@ -29,7 +38,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="relative">
         <img
-          src="/img/header_Img.webp" 
+          src="/img/header_Img.webp"
           alt="Genshin Impact"
           className="w-full h-64 object-cover"
         />
