@@ -9,9 +9,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(30, 27, 75);
     --foreground: #ededed;
   }
+  .flip-horizontal {
+    transform: scaleX(-1);
+  }
+  
 }
 
 body {
@@ -25,3 +29,5 @@ body {
     text-wrap: balance;
   }
 }
+
+

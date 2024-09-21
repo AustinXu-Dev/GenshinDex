@@ -224,15 +224,19 @@ async function deleteCharacter(character) {
       {/* Back Button and Title */}
       <div className="flex justify-between items-center mb-8">
         <Link href="/">
-          <button className="bg-gray-600 text-white px-4 py-2 rounded-md hover:bg-gray-700">
-            Back
-          </button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center gap-2 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <svg class="w-5 h-5 flip-horizontal" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+        Back
+        <span class="sr-only">Icon description</span>
+        </button>
         </Link>
-        <h1 className="text-3xl font-bold">Genshin Impact Characters</h1>
+        <h1 className="text-3xl font-bold">Characters</h1>
       </div>
 
       {/* Add New Button */}
-      <button onClick={() => { setPopupType('add'); setShowPopup(true); }} className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
+      <button onClick={() => { setPopupType('add'); setShowPopup(true); }} className="bg-emerald-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
         Add New Character
       </button>
 
@@ -240,11 +244,11 @@ async function deleteCharacter(character) {
       <div className="flex justify-between mb-4 mt-4">
         {/* Sort By Dropdown */}
         <div className="relative inline-block text-left">
-          <button onClick={() => toggleDropdown("sort")} className={`px-2 py-2 rounded-md ${selectedSort ? 'bg-blue-800 text-white' : 'bg-blue-600 text-white'} hover:bg-blue-700`}>
+          <button onClick={() => toggleDropdown("sort")} className={`px-2 py-2 rounded-md ${selectedSort ? 'bg-blue-950 text-white' : 'bg-blue-800 text-white'} hover:bg-blue-700`}>
             Sort By
           </button>
           {dropdownVisible.sort && (
-            <div className="absolute right-0 mt-2 w-36 bg-white border rounded-md shadow-lg">
+            <div className="absolute left-2 mt-2 w-36 bg-white border rounded-md shadow-lg">
               <button className={`block px-4 py-2 ${selectedSort === "name" ? 'bg-gray-300' : 'text-gray-800 hover:bg-gray-200'}`} onClick={() => handleSortBy("name")}>
                 Name
               </button>
@@ -260,7 +264,7 @@ async function deleteCharacter(character) {
 
         {/* Filter By Element Dropdown */}
         <div className="relative inline-block text-left">
-          <button onClick={() => toggleDropdown("filterElement")} className={`px-2 py-2 rounded-md ${selectedFilters.element ? 'bg-blue-800 text-white' : 'bg-blue-600 text-white'} hover:bg-blue-700`}>
+          <button onClick={() => toggleDropdown("filterElement")} className={`px-2 py-2 rounded-md ${selectedFilters.element ? 'bg-blue-950 text-white' : 'bg-blue-800 text-white'} hover:bg-blue-700`}>
             Filter by Element
           </button>
           {dropdownVisible.filterElement && (
@@ -276,7 +280,7 @@ async function deleteCharacter(character) {
 
         {/* Filter By Weapon Dropdown */}
         <div className="relative inline-block text-left">
-          <button onClick={() => toggleDropdown("filterWeapon")} className={`px-2 py-2 rounded-md ${selectedFilters.weapon ? 'bg-blue-800 text-white' : 'bg-blue-600 text-white'} hover:bg-blue-700`}>
+          <button onClick={() => toggleDropdown("filterWeapon")} className={`px-2 py-2 rounded-md ${selectedFilters.weapon ? 'bg-blue-950 text-white' : 'bg-blue-800 text-white'} hover:bg-blue-700`}>
             Filter by Weapon
           </button>
           {dropdownVisible.filterWeapon && (
@@ -292,7 +296,7 @@ async function deleteCharacter(character) {
 
         {/* Filter By Region Dropdown */}
         <div className="relative inline-block text-left">
-          <button onClick={() => toggleDropdown("filterRegion")} className={`px-2 py-2 rounded-md ${selectedFilters.region ? 'bg-blue-800 text-white' : 'bg-blue-600 text-white'} hover:bg-blue-700`}>
+          <button onClick={() => toggleDropdown("filterRegion")} className={`px-2 py-2 rounded-md ${selectedFilters.region ? 'bg-blue-950 text-white' : 'bg-blue-800 text-white'} hover:bg-blue-700`}>
             Filter by Region
           </button>
           {dropdownVisible.filterRegion && (
@@ -307,7 +311,7 @@ async function deleteCharacter(character) {
         </div>
 
         {/* Undo Filter Button */}
-        <button onClick={undoFilter} className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700">
+        <button onClick={undoFilter} className="bg-red-800 text-white px-4 py-2 rounded-md hover:bg-red-900">
           Undo Filter
         </button>
       </div>
@@ -315,19 +319,19 @@ async function deleteCharacter(character) {
       {/* Character Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {characters.map((character) => (
-          <div key={character.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div key={character.id} className="bg-indigo-100 shadow-lg rounded-lg overflow-hidden">
             <div className="flex justify-end space-x-2 p-2">
-              <button onClick={() => deleteCharacter(character)} className="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700">
+              <button onClick={() => deleteCharacter(character)} className="bg-red-900 text-white px-2 py-1 rounded hover:bg-red-700">
                 Delete
               </button>
-              <button onClick={() => startEditMode(character)} className="bg-yellow-500 text-white px-2 py-1 rounded hover:bg-yellow-600">
+              <button onClick={() => startEditMode(character)} className="bg-amber-500 text-white px-2 py-1 rounded hover:bg-yellow-600">
                 Edit
               </button>
             </div>
             <img src={character.image} alt={character.name} className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h2 className="text-black text-xl font-semibold">{character.name}</h2>
-              <button onClick={() => viewCharacterInfo(character)} className="bg-blue-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-blue-700">
+              <h2 className="text-indigo-950 text-xl font-semibold">{character.name}</h2>
+              <button onClick={() => viewCharacterInfo(character)} className="bg-indigo-900 text-white px-4 py-2 rounded-md mt-4 hover:bg-indigo-950">
                 View Info
               </button>
             </div>
@@ -339,7 +343,7 @@ async function deleteCharacter(character) {
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded-lg shadow-lg relative">
-            <button onClick={closePopup} className="absolute top-2 right-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700">
+            <button onClick={closePopup} className="absolute top-2 right-2 bg-red-900 text-white px-4 py-2 rounded-md hover:bg-red-800">
               Close
             </button>
             {popupType === 'view' && selectedCharacter && (
