@@ -201,7 +201,7 @@ export default function MonsterPage() {
             Back
           </button>
         </Link>
-        <h1 className="text-3xl font-bold">Genshin Impact Monsters</h1>
+        <h1 className="text-3xl font-bold">Monsters</h1>
       </div>
 
       <button onClick={() => { setPopupType('add'); setShowPopup(true); }} className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">
