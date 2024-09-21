@@ -303,8 +303,8 @@ export default function MonsterPage() {
             {popupType === 'view' && selectedMonster && (
               <>
                 <Image
-                  src={monster.img}
-                  alt={monster.name}
+                  src={selectedMonster.img}
+                  alt={selectedMonster.name}
                   width={500} // you can set appropriate width
                   height={200} // you can set appropriate height
                   className="w-full h-48 object-cover"
