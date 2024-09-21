@@ -38,7 +38,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="relative">
         <img
-          src="/img/header_Img.webp"
+          src="/img/header_img.jpg"
           alt="Genshin Impact"
           className="w-full h-60 object-cover"
         />
