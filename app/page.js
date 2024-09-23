@@ -67,7 +67,7 @@ export default function HomePage() {
       {/* Data Entities Cards */}
       <section className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
         {/* Character Card */}
-        <div className="bg-indigo-50 shadow-md rounded-lg overflow-hidden">
+        <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
           <img
             src="/img/character.png"
             alt="Characters"
@@ -75,37 +75,36 @@ export default function HomePage() {
           />
           <div className="p-4 text-center">
             <h2 className="text-violet-950 text-xl font-semibold">Characters</h2>
-            <p className="text-gray-600">Explore all playable characters.</p>
-            <a
-              href="/characters"
-              className="text-violet-500 hover:underline block mt-4"
+            <p className="text-indigo-900 mt-1">Explore all playable characters.</p>
+            <button
+              onClick={() => window.location.href = '/characters'}
+              className="bg-violet-800 text-white py-2 px-4 rounded hover:bg-violet-900 mt-4"
             >
               View Characters
-            </a>
+            </button>
           </div>
         </div>
 
-        {/* Weapon Card */}
-        <div className="bg-indigo-50 shadow-md rounded-lg overflow-hidden">
+      <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
           <img
-            src="/img/weapon.png"
-            alt="Weapons"
-            className="w-full h-48 object-cover"
+          src="/img/weapon.png"
+          alt="Weapons"
+          className="w-full h-48 object-cover"
           />
           <div className="p-4 text-center">
-            <h2 className="text-violet-950 text-xl font-semibold">Weapons</h2>
-            <p className="text-gray-600">Discover all available weapons.</p>
-            <a
-              href="/weapons"
-              className="text-violet-500 hover:underline block mt-4"
-            >
-              View Weapons
-            </a>
-          </div>
+          <h2 className="text-violet-950 text-xl font-semibold">Weapons</h2>
+          <p className="text-indigo-900 mt-1">Discover all available weapons.</p>
+          <button
+          onClick={() => window.location.href = '/weapons'}
+          className="bg-violet-800 text-white py-2 px-4 rounded hover:bg-violet-900 mt-4"
+          >
+          View Weapons
+          </button>
         </div>
+      </div>
 
         {/* Monster Card */}
-        <div className="bg-indigo-50 shadow-md rounded-lg overflow-hidden">
+        <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
           <img
             src="/img/monster.jpg"
             alt="Monsters"
@@ -113,17 +112,17 @@ export default function HomePage() {
           />
           <div className="p-4 text-center">
             <h2 className="text-violet-950 text-xl font-semibold">Monsters</h2>
-            <p className="text-gray-600">Learn about the monsters of Teyvat.</p>
-            <a
-              href="/monsters"
-              className="text-violet-500 hover:underline block mt-4"
+            <p className="text-indigo-900 mt-1">Learn about the monsters of Teyvat.</p>
+            <button
+              onClick={() => window.location.href = '/monsters'}
+              className="bg-violet-800 text-white py-2 px-4 rounded hover:bg-violet-900 mt-4"
             >
-              View Monsters
-            </a>
+            View Monsters
+            </button>
           </div>
         </div>
       {/* About Genshin Impact */}
-<div className="bg-indigo-50 shadow-md rounded-lg overflow-x-auto flex flex-col md:col-span-3">
+<div className="bg-indigo-200 shadow-md rounded-lg overflow-x-auto flex flex-col md:col-span-3">
   <div className="flex flex-row">
     <img
       src="/img/genshin_about.png"
@@ -132,7 +131,7 @@ export default function HomePage() {
         />
           <div className="ml-4 mt-4">
             <h2 className="text-violet-950 text-2xl font-semibold">About Genshin Impact</h2>
-            <p className="text-gray-600 line-height-1.5 mt-2">Genshin Impact is an open-world action role-playing game developed by miHoYo. Set in the visually stunning fantasy world of Teyvat, players explore seven distinct regions, each based on real-world cultures and powered by unique elemental forces. The story revolves around the protagonist, known as the Traveler, who is on a quest to reunite with their lost sibling and unravel the mysteries of Teyvat and its elemental gods, known as Archons.</p>
+            <p className="text-indigo-900 line-height-1.5 mt-2">Genshin Impact is an open-world action role-playing game developed by miHoYo. Set in the visually stunning fantasy world of Teyvat, players explore seven distinct regions, each based on real-world cultures and powered by unique elemental forces. The story revolves around the protagonist, known as the Traveler, who is on a quest to reunite with their lost sibling and unravel the mysteries of Teyvat and its elemental gods, known as Archons.</p>
         
             <a
               href="https://genshin.hoyoverse.com/en/home"
@@ -140,15 +139,16 @@ export default function HomePage() {
           
             >
               Explore the game
+              <span className="ml-1">{">>"}</span>
             </a>
           </div>
         </div>
       </div>
-  <div className="bg-indigo-50 shadow-md rounded-lg overflow-x-auto flex flex-col md:col-span-3">
+  <div className="bg-indigo-200 shadow-md rounded-lg overflow-x-auto flex flex-col md:col-span-3">
   <div className="flex flex-row">
           <div className="ml-4 mt-4">
             <h2 className="text-violet-950 text-2xl font-semibold">New Character</h2>
-            <p className="text-gray-600 line-height-1.5 mt-2">A Saurian Hunter from the Scions of the Canopy with the Ancient Name "Malipo", Kinich is a taciturn individual who has a knack for calculating the price of any request — even wetwork — due to his utilitarian philosophy. He is almost always seen with the egocentric self-proclaimed "Almighty Dragonlord" K'uhul Ajaw, whom he regularly quarrels with.</p>
+            <p className="text-indigo-900 line-height-1.5 mt-2">A Saurian Hunter from the Scions of the Canopy with the Ancient Name "Malipo", Kinich is a taciturn individual who has a knack for calculating the price of any request — even wetwork — due to his utilitarian philosophy. He is almost always seen with the egocentric self-proclaimed "Almighty Dragonlord" K'uhul Ajaw, whom he regularly quarrels with.</p>
         
             <a
               href="https://www.youtube.com/watch?v=dz0w5JRG3jY&t=1s"
@@ -156,6 +156,7 @@ export default function HomePage() {
           
             >
               Watch the Trailer
+              <span className="ml-1">{">>"}</span>
             </a>
             
           </div>
@@ -167,20 +168,20 @@ export default function HomePage() {
         </div>
       </div>
     </section>
-    <section className="container mx-auto py-8 text-left">
+    <section className="container mx-auto py-8 justify-center text-center">
   <h3 className="text-white text-xl font-bold">About Us</h3>
-  <div className="contact-info-upper-container flex items-center mt-4">
+  <div className="contact-info-upper-container flex items-center justify-center mt-4">
     <div className="contact-info-container flex items-center">
       <img
         src="/img/github-mark-white.png"
         alt="github"
-        className="w-10 h-10 object-cover mr-2 cursor-pointer hover:underline" // Added margin and cursor
+        className="w-10 h-10 object-cover cursor-pointer hover:underline" // Added margin and cursor
       />
-      <span className="text-white cursor-pointer hover:underline ml-2" onClick={() => {
+      <div className="text-white cursor-pointer hover:underline ml-2" onClick={() => {
           window.location.href = 'https://github.com/AustinXu-Dev/GenshinDex'; // Make text clickable as well
         }}>
-        Our GitHub Page
-      </span>
+        Github
+      </div>
     </div>
     </div>
     </section>

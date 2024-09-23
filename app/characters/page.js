@@ -254,7 +254,7 @@ async function deleteCharacter(character) {
       </div>
 
       {/* Dropdowns for Sorting and Filtering */}
-      <div className="flex flex-wrap justify-between items-center mb-4 space-x-4 space-y-2">
+      <div className="flex flex-wrap justify-end items-center mb-4 gap-4">
 
         {/* Add New Button */}
       <div className="flex justify-end">
@@ -286,7 +286,7 @@ async function deleteCharacter(character) {
             Sort By
           </button>
           {dropdownVisible.sort && (
-            <div className="absolute left-2 mt-2 w-36 bg-white border rounded-md shadow-lg">
+            <div className="absolute right-0 mt-2 w-36 bg-white border rounded-md shadow-lg">
               <button className={`block px-4 py-2 ${selectedSort === "name" ? 'bg-gray-300' : 'text-gray-800 hover:bg-gray-200'}`} onClick={() => handleSortBy("name")}>
                 Name
               </button>
@@ -422,20 +422,22 @@ async function deleteCharacter(character) {
       {/* Popup for Add/Edit/View */}
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg relative">
+          <div className="bg-indigo-50 p-6 rounded-lg shadow-lg relative w-full max-w-md">
             <button onClick={closePopup} className="absolute top-2 right-2 bg-red-900 text-white px-4 py-2 rounded-md hover:bg-red-800">
-              Close
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M13.5909 12L18.0441 7.54687C18.2554 7.3359 18.3743 7.04962 18.3745 6.75099C18.3748 6.45237 18.2564 6.16587 18.0455 5.95453C17.8345 5.74319 17.5482 5.62431 17.2496 5.62404C16.951 5.62378 16.6645 5.74215 16.4531 5.95312L12 10.4062L7.54687 5.95312C7.33553 5.74178 7.04888 5.62305 6.75 5.62305C6.45111 5.62305 6.16447 5.74178 5.95312 5.95312C5.74178 6.16447 5.62305 6.45111 5.62305 6.75C5.62305 7.04888 5.74178 7.33553 5.95312 7.54687L10.4062 12L5.95312 16.4531C5.74178 16.6645 5.62305 16.9511 5.62305 17.25C5.62305 17.5489 5.74178 17.8355 5.95312 18.0469C6.16447 18.2582 6.45111 18.3769 6.75 18.3769C7.04888 18.3769 7.33553 18.2582 7.54687 18.0469L12 13.5937L16.4531 18.0469C16.6645 18.2582 16.9511 18.3769 17.25 18.3769C17.5489 18.3769 17.8355 18.2582 18.0469 18.0469C18.2582 17.8355 18.3769 17.5489 18.3769 17.25C18.3769 16.9511 18.2582 16.6645 18.0469 16.4531L13.5909 12Z" fill="#F8F8F8"/>
+            </svg>
             </button>
             {popupType === 'view' && selectedCharacter && (
               <>
                 <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-32 h-32 object-cover mx-auto" />
-                <h2 className="text-black text-2xl font-bold text-center">{selectedCharacter.name}</h2>
+                <h2 className="ttext-indigo-950 text-2xl font-bold text-center">{selectedCharacter.name}</h2>
                 <p className="text-gray-700 text-center mt-2">{selectedCharacter.description}</p>
-                <div className="mt-4 space-y-2 text-center">
-                  <p className="text-black "><strong>Element:</strong> {selectedCharacter.element}</p>
-                  <p className="text-black "><strong>Weapon:</strong> {selectedCharacter.weapon}</p>
-                  <p className="text-black "><strong>Region:</strong> {selectedCharacter.region}</p>
-                  <p className="text-black "><strong>Rarity:</strong> {selectedCharacter.rarity}</p>
+                <div className="mt-2 space-y-2 text-center">
+                  <p className="text-indigo-950 "><strong>Element:</strong> {selectedCharacter.element}</p>
+                  <p className="text-indigo-950 "><strong>Weapon:</strong> {selectedCharacter.weapon}</p>
+                  <p className="text-indigo-950 "><strong>Region:</strong> {selectedCharacter.region}</p>
+                  <p className="text-indigo-950 "><strong>Rarity:</strong> {selectedCharacter.rarity}</p>
                 </div>
               </>
             )}
