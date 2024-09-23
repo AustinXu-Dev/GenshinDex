@@ -343,14 +343,14 @@ export default function MonsterPage() {
               </svg>
               </button>
             </div>
-            {/* <Image
+            <Image
               src={monster.img}
               alt={monster.name}
               width={500} // you can set appropriate width
               height={200} // you can set appropriate height
               className="w-full h-48 object-cover"
-            /> */}
-            <img src={monster.img} alt={monster.name} className="w-full h-48 object-cover" />
+            />
+            {/* <Image src={monster.img} alt={monster.name} className="w-full h-48 object-cover" /> */}
 
             <div className="p-4 flex flex-col items-center">
               <h2 className="text-indigo-950 text-xl font-semibold">{monster.name}</h2>
@@ -382,7 +382,7 @@ export default function MonsterPage() {
                   height={200} // you can set appropriate height
                   className="w-full h-48 object-cover"
                 /> */}
-                <img src={selectedMonster.img} alt={selectedMonster.name} className="w-32 h-32 object-cover mx-auto" />
+                <Image src={selectedMonster.img} alt={selectedMonster.name} className="w-32 h-32 object-cover mx-auto" />
 
                 <h2 className="text-indigo-950 text-2xl font-bold text-center mt-2">{selectedMonster.name}</h2>
                 <p className="text-gray-800 text-center mt-2">{selectedMonster.description}</p>

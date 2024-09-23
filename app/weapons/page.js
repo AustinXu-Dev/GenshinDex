@@ -2,6 +2,8 @@
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 export default function WeaponPage() {
   const API_BASE = "/api";
@@ -359,7 +361,12 @@ export default function WeaponPage() {
               </svg>
               </button>
             </div>
-            <img src={weapon.image} alt={weapon.name} className="w-full h-48 object-cover" />
+            <Image 
+            src={weapon.image} 
+            alt={weapon.name} 
+            width={500}
+            height={200}
+            className="w-full h-48 object-cover" />
             <div className="p-4 flex flex-col items-center">
               <h2 className="text-indigo-950 text-xl font-semibold">{weapon.name}</h2>
               <p className="text-gray-600">Type: {weapon.type}</p>
@@ -382,7 +389,7 @@ export default function WeaponPage() {
             </button>
             {popupType === 'view' && selectedWeapon && (
               <>
-                <img src={selectedWeapon.image} alt={selectedWeapon.name} className="w-32 h-32 object-cover mx-auto" />
+                <Image src={selectedWeapon.image} alt={selectedWeapon.name} className="w-32 h-32 object-cover mx-auto" />
                 <h2 className="text-indigo-950 text-2xl font-bold text-center">{selectedWeapon.name}</h2>
                 <p className="text-balance text-gray-700 text-center mt-2">{selectedWeapon["passiveAbility"] || 'None'}</p>
                 <div className="mt-4 space-y-2 text-center">

@@ -1,4 +1,6 @@
 "use client"; 
+import Image from 'next/image';
+
 
 export default function HomePage() {
   return (
@@ -8,9 +10,11 @@ export default function HomePage() {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo and Title */}
           <div className="flex items-center space-x-2">
-            <img
+            <Image
               src="/img/logo.png"  // Path to your icon image
               alt="Genshin Icon"
+              width={500}
+              height={200}
               className="h-8 w-8"   // Set the size of the icon
             />
             <div className="text-2xl font-bold">Genshin Dex</div>
@@ -39,9 +43,11 @@ export default function HomePage() {
 
       {/* Header */}
       <header className="relative">
-        <img
+        <Image
           src="/img/header_img.jpg"
           alt="Genshin Impact"
+          width={500}
+          height={200}
           className="w-full h-60 object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center">
@@ -65,9 +71,11 @@ export default function HomePage() {
       <section className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
         {/* Character Card */}
         <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
-          <img
+          <Image
             src="/img/character.png"
             alt="Characters"
+            width={500}
+            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4 text-center">
@@ -83,9 +91,11 @@ export default function HomePage() {
         </div>
 
       <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
-          <img
+          <Image
           src="/img/weapon.png"
           alt="Weapons"
+          width={500}
+          height={200}
           className="w-full h-48 object-cover"
           />
           <div className="p-4 text-center">
@@ -102,9 +112,11 @@ export default function HomePage() {
 
         {/* Monster Card */}
         <div className="bg-indigo-200 shadow-md rounded-lg overflow-hidden">
-          <img
+          <Image
             src="/img/monster.jpg"
             alt="Monsters"
+            width={500}
+            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4 text-center">
@@ -121,9 +133,11 @@ export default function HomePage() {
       {/* About Genshin Impact */}
 <div className="bg-indigo-200 shadow-md rounded-lg overflow-x-auto flex flex-col md:col-span-3">
   <div className="flex flex-row">
-    <img
+    <Image
       src="/img/genshin_about.png"
       alt="About Genshin Impact"
+      width={500}
+      height={200}
       className="w-50 h-48 object-cover"
         />
           <div className="ml-4 mt-4">
@@ -157,11 +171,13 @@ export default function HomePage() {
             </a>
             
           </div>
-          <img
-      src="/img/Kinich.jpg"
-      alt="About Genshin Impact"
-      className="w-50 h-48 object-cover"
-        />
+          <Image
+            width={500}
+            height={200}
+            src="/img/Kinich.jpg"
+            alt="About Genshin Impact"
+            className="w-50 h-48 object-cover"
+          />
         </div>
       </div>
     </section>
@@ -169,9 +185,11 @@ export default function HomePage() {
   <h3 className="text-white text-xl font-bold">About Us</h3>
   <div className="contact-info-upper-container flex items-center justify-center mt-4">
     <div className="contact-info-container flex items-center">
-      <img
+      <Image
         src="/img/github-mark-white.png"
         alt="github"
+        width={500}
+        height={200}
         className="w-10 h-10 object-cover cursor-pointer hover:underline" // Added margin and cursor
       />
       <div className="text-white cursor-pointer hover:underline ml-2" onClick={() => {

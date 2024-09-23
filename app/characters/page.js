@@ -2,6 +2,8 @@
 import { useState, useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 import Link from 'next/link'; // Use Link for navigation
+import Image from 'next/image';
+
 
 export default function CharacterPage() {
   const API_BASE = "/api";
@@ -443,7 +445,8 @@ async function deleteCharacter(character) {
               </svg>
               </button>
             </div>
-            <img src={character.image} alt={character.name} className="w-full h-48 object-cover" />
+            <Image width={500}
+            height={200} src={character.image} alt={character.name} className="w-full h-48 object-cover" />
             <div className="p-4 flex flex-col items-center">
               <h2 className="text-indigo-950 text-xl font-semibold">{character.name}</h2>
               <button onClick={() => viewCharacterInfo(character)} className="bg-indigo-900 text-white px-4 py-2 rounded-md mt-4 hover:bg-indigo-950">
@@ -465,7 +468,8 @@ async function deleteCharacter(character) {
             </button>
             {popupType === 'view' && selectedCharacter && (
               <>
-                <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-32 h-32 object-cover mx-auto" />
+                <Image width={500}
+                  height={200}src={selectedCharacter.image} alt={selectedCharacter.name} className="w-32 h-32 object-cover mx-auto" />
                 <h2 className="text-indigo-950 text-2xl font-bold text-center">{selectedCharacter.name}</h2>
                 <p className="text-gray-700 text-center mt-2">{selectedCharacter.description}</p>
                 <div className="mt-2 space-y-2 text-center">
