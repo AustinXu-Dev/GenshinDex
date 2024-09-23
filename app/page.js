@@ -159,7 +159,7 @@ export default function HomePage() {
   <div className="flex flex-row">
           <div className="ml-4 mt-4">
             <h2 className="text-violet-950 text-2xl font-semibold">New Character</h2>
-            <p className="text-indigo-900 line-height-1.5 mt-2">A Saurian Hunter from the Scions of the Canopy with the Ancient Name "Malipo", Kinich is a taciturn individual who has a knack for calculating the price of any request — even wetwork — due to his utilitarian philosophy. He is almost always seen with the egocentric self-proclaimed "Almighty Dragonlord" K'uhul Ajaw, whom he regularly quarrels with.</p>
+            <p className="text-indigo-900 line-height-1.5 mt-2">A Saurian Hunter from the Scions of the Canopy with the Ancient Name &quot;Malipo&quot;, Kinich is a taciturn individual who has a knack for calculating the price of any request — even wetwork — due to his utilitarian philosophy. He is almost always seen with the egocentric self-proclaimed &quot;Almighty Dragonlord&quot; K&apos;uhul Ajaw, whom he regularly quarrels with.</p>
         
             <a
               href="https://www.youtube.com/watch?v=dz0w5JRG3jY&t=1s"
