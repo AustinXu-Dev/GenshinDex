@@ -1,9 +1,6 @@
 "use client"; 
 
 export default function HomePage() {
-  const handleRedirect = () => {
-    window.location.href = 'https://github.com/your-profile'; // Replace with your GitHub link
-  };
   return (
     <div className="min-h-screen bg-black-100">
       {/* Navbar */}
@@ -194,3 +191,4 @@ export default function HomePage() {
     
   );
 }
+
