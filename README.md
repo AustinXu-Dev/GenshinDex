@@ -6,7 +6,7 @@ GenshinDex is a Full-Stack CRUD web application built using **Next.js** and **Ta
 **Repository**: [GitHub Repo](https://github.com/AustinXu-Dev/GenshinDex)
 
 ## Team members
-**Pyape Phyo Aung** : [Link to repo](https://github.com/AustinXu-Dev/AustinXu-Dev.github.io)  
+**Pyae Phyo Aung** : [Link to repo](https://github.com/AustinXu-Dev/AustinXu-Dev.github.io)  
 
 **Phyu Thandar Khin** : [Link to repo](https://github.com/ElenaKhin/ElenaKhin.github.io)  
 
