@@ -26,11 +26,13 @@ export async function POST(request) {
 
   try {
     await dbConnect(); // Ensure the DB connection is established
+    const lastCharacter = await Character.findOne({}, { id: 1 }).sort({ id: -1 });
+    const newId = lastCharacter ? lastCharacter.id + 1 : 1; // Increment from the last id or start from 1
 
     // Assign a new ID (you might want to adjust this logic depending on your needs)
     const newCharacter = new Character({
       ...requestBody,
-      id: await Character.countDocuments() + 1, // Set a new ID based on the current count
+      id: newId, // Set a new ID based on the current count
     });
 
     await newCharacter.save(); // Save the new character to MongoDB

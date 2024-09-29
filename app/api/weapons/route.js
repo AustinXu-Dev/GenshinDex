@@ -23,10 +23,12 @@ export async function POST(request) {
 
   try {
     await dbConnect();
+    const lastWeapon = await Weapon.findOne({}, { id: 1 }).sort({ id: -1 });
+    const newId = lastWeapon ? lastWeapon.id + 1 : 1; // Increment from the last id or start from 1
 
     const newWeapon = new Weapon({
       ...requestBody,
-      id: await Weapon.countDocuments() + 1,
+      id: newId,
     });
 
     await newWeapon.save();

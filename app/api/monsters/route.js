@@ -22,10 +22,12 @@ export async function POST(request) {
 
   try {
     await dbConnect();
+    const lastMonster = await Monster.findOne({}, { id: 1 }).sort({ id: -1 });
+    const newId = lastMonster ? lastMonster.id + 1 : 1; // Increment from the last id or start from 1
 
     const newMonster = new Monster({
       ...requestBody,
-      id: await Monster.countDocuments() + 1,
+      id: newId,
     });
 
     await newMonster.save();
